@@ -8,7 +8,7 @@ from torchvision.models import resnet18, ResNet18_Weights
 
 from datasets import FrameVideoDataset
 
-# First we define  a 2D CNN with early fusion
+# First we define a 2D CNN with early fusion
 class EarlyFusionCNN(nn.Module):
     def __init__(self, num_classes=10):
         super().__init__()

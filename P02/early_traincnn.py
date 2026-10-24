@@ -6,11 +6,10 @@ from torch.utils.data import DataLoader
 from torchvision import transforms as T
 from torchvision.models import resnet18, ResNet18_Weights
 
-from datasets import FrameVideoDataset
+from datasets import DEFAULT_ROOT_DIR, FrameVideoDataset
 from modelpme import EarlyFusionCNN, Simple3DCNN, PretrainedEarlyFusionCNN
 
-#root_dir = "/zhome/e5/5/233066/project2/ucf101/ufc10"
-root_dir = "/dtu/datasets1/02516/ucf101_noleakage"
+root_dir = DEFAULT_ROOT_DIR
 
 weights = ResNet18_Weights.DEFAULT
 pretrained_transform = T.Compose([
@@ -279,5 +278,5 @@ print(
     f"Early Fusion (Scratch): {early_acc:.2f}% | "
     f"Early Fusion (Pretrained): {early_accpre * 100:.2f}% | "
     f"3D CNN: {cnn3d_acc:.2f}%",
-    flush=True
+    flush=True  
 )
