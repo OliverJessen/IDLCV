@@ -1,0 +1,204 @@
+Videos: torch.Size([16, 3, 10, 112, 112])
+Labels: torch.Size([16])
+
+=== Early Fusion 2D CNN (Scratch) ===
+Epoch 1/50: Train loss=2.1948, Train acc=20.60% | Val loss=2.1937, Val acc=17.50%
+Epoch 2/50: Train loss=2.0843, Train acc=24.60% | Val loss=2.2767, Val acc=16.67%
+Epoch 3/50: Train loss=1.9409, Train acc=33.60% | Val loss=2.5822, Val acc=17.50%
+Epoch 4/50: Train loss=1.9409, Train acc=31.80% | Val loss=2.3206, Val acc=10.83%
+Epoch 5/50: Train loss=1.8723, Train acc=34.40% | Val loss=2.6004, Val acc=12.50%
+Epoch 6/50: Train loss=1.8212, Train acc=36.40% | Val loss=2.4089, Val acc=19.17%
+Epoch 7/50: Train loss=1.7963, Train acc=39.00% | Val loss=2.3254, Val acc=20.83%
+Epoch 8/50: Train loss=1.7359, Train acc=39.20% | Val loss=2.2805, Val acc=15.83%
+Epoch 9/50: Train loss=1.7079, Train acc=38.80% | Val loss=2.3658, Val acc=20.00%
+Epoch 10/50: Train loss=1.6227, Train acc=44.00% | Val loss=2.3645, Val acc=18.33%
+Epoch 11/50: Train loss=1.5521, Train acc=46.00% | Val loss=2.3792, Val acc=20.83%
+Epoch 12/50: Train loss=1.5177, Train acc=48.40% | Val loss=2.4469, Val acc=17.50%
+Epoch 13/50: Train loss=1.5493, Train acc=47.20% | Val loss=6.4134, Val acc=10.83%
+Epoch 14/50: Train loss=1.4954, Train acc=51.60% | Val loss=2.4501, Val acc=16.67%
+Epoch 15/50: Train loss=1.4202, Train acc=48.80% | Val loss=2.2974, Val acc=20.00%
+Epoch 16/50: Train loss=1.3577, Train acc=55.00% | Val loss=2.4248, Val acc=22.50%
+Epoch 17/50: Train loss=1.3213, Train acc=56.60% | Val loss=2.5374, Val acc=17.50%
+Epoch 18/50: Train loss=1.2585, Train acc=58.60% | Val loss=2.2911, Val acc=26.67%
+Epoch 19/50: Train loss=1.1583, Train acc=64.20% | Val loss=2.3727, Val acc=25.00%
+Epoch 20/50: Train loss=1.2405, Train acc=57.20% | Val loss=2.8789, Val acc=20.83%
+Epoch 21/50: Train loss=1.1882, Train acc=61.20% | Val loss=2.4355, Val acc=18.33%
+Epoch 22/50: Train loss=1.1150, Train acc=61.40% | Val loss=2.5941, Val acc=14.17%
+Epoch 23/50: Train loss=1.0054, Train acc=68.00% | Val loss=2.5392, Val acc=18.33%
+Epoch 24/50: Train loss=1.0237, Train acc=66.80% | Val loss=2.2966, Val acc=28.33%
+Epoch 25/50: Train loss=0.9995, Train acc=67.80% | Val loss=2.3794, Val acc=30.00%
+Epoch 26/50: Train loss=1.0437, Train acc=65.40% | Val loss=2.4921, Val acc=17.50%
+Epoch 27/50: Train loss=0.9209, Train acc=70.00% | Val loss=2.4812, Val acc=15.83%
+Epoch 28/50: Train loss=0.8720, Train acc=72.00% | Val loss=2.5837, Val acc=29.17%
+Epoch 29/50: Train loss=0.8997, Train acc=70.00% | Val loss=2.4316, Val acc=24.17%
+Epoch 30/50: Train loss=0.8993, Train acc=69.80% | Val loss=2.6588, Val acc=26.67%
+Epoch 31/50: Train loss=0.7704, Train acc=74.00% | Val loss=2.6399, Val acc=21.67%
+Epoch 32/50: Train loss=0.6972, Train acc=77.80% | Val loss=2.4901, Val acc=26.67%
+Epoch 33/50: Train loss=0.7257, Train acc=76.40% | Val loss=2.4536, Val acc=29.17%
+Epoch 34/50: Train loss=0.6243, Train acc=79.40% | Val loss=2.3556, Val acc=30.83%
+Epoch 35/50: Train loss=0.6623, Train acc=77.60% | Val loss=2.7348, Val acc=15.83%
+Epoch 36/50: Train loss=0.7241, Train acc=78.00% | Val loss=2.5275, Val acc=28.33%
+Epoch 37/50: Train loss=0.6570, Train acc=78.80% | Val loss=2.5940, Val acc=24.17%
+Epoch 38/50: Train loss=0.6595, Train acc=80.40% | Val loss=2.7212, Val acc=27.50%
+Epoch 39/50: Train loss=0.6043, Train acc=82.40% | Val loss=2.9096, Val acc=25.00%
+Epoch 40/50: Train loss=0.6278, Train acc=80.40% | Val loss=2.7079, Val acc=25.00%
+Epoch 41/50: Train loss=0.6240, Train acc=81.00% | Val loss=2.9407, Val acc=20.83%
+Epoch 42/50: Train loss=0.6445, Train acc=78.40% | Val loss=2.6664, Val acc=22.50%
+Epoch 43/50: Train loss=0.5736, Train acc=81.60% | Val loss=2.6822, Val acc=21.67%
+Epoch 44/50: Train loss=0.5339, Train acc=83.60% | Val loss=2.7042, Val acc=25.83%
+Epoch 45/50: Train loss=0.5688, Train acc=84.80% | Val loss=2.8274, Val acc=21.67%
+Epoch 46/50: Train loss=0.5418, Train acc=82.40% | Val loss=2.3704, Val acc=30.00%
+Epoch 47/50: Train loss=0.5082, Train acc=85.60% | Val loss=2.6480, Val acc=30.00%
+Epoch 48/50: Train loss=0.5857, Train acc=81.80% | Val loss=2.4493, Val acc=28.33%
+Epoch 49/50: Train loss=0.5141, Train acc=85.40% | Val loss=2.6530, Val acc=29.17%
+Epoch 50/50: Train loss=0.5037, Train acc=82.40% | Val loss=2.8157, Val acc=29.17%
+
+=== Early Fusion 2D CNN (Pretrained ResNet-18) ===
+Epoch [1/50] Train Loss: 1.3838 | Train Acc: 58.20% | Val Loss: 1.8594 | Val Acc: 34.17%
+Epoch [2/50] Train Loss: 0.2696 | Train Acc: 95.80% | Val Loss: 1.8766 | Val Acc: 43.33%
+Epoch [3/50] Train Loss: 0.0950 | Train Acc: 99.20% | Val Loss: 1.9434 | Val Acc: 41.67%
+Epoch [4/50] Train Loss: 0.0419 | Train Acc: 99.40% | Val Loss: 1.8518 | Val Acc: 41.67%
+Epoch [5/50] Train Loss: 0.0252 | Train Acc: 99.80% | Val Loss: 1.8833 | Val Acc: 45.83%
+Epoch [6/50] Train Loss: 0.0165 | Train Acc: 100.00% | Val Loss: 2.0510 | Val Acc: 41.67%
+Epoch [7/50] Train Loss: 0.0183 | Train Acc: 99.60% | Val Loss: 1.9590 | Val Acc: 47.50%
+Epoch [8/50] Train Loss: 0.0097 | Train Acc: 100.00% | Val Loss: 2.0548 | Val Acc: 43.33%
+Epoch [9/50] Train Loss: 0.0109 | Train Acc: 100.00% | Val Loss: 2.0903 | Val Acc: 45.00%
+Epoch [10/50] Train Loss: 0.0184 | Train Acc: 99.80% | Val Loss: 2.0607 | Val Acc: 46.67%
+Epoch [11/50] Train Loss: 0.0154 | Train Acc: 99.80% | Val Loss: 2.0319 | Val Acc: 50.00%
+Epoch [12/50] Train Loss: 0.0060 | Train Acc: 100.00% | Val Loss: 2.1313 | Val Acc: 46.67%
+Epoch [13/50] Train Loss: 0.0051 | Train Acc: 100.00% | Val Loss: 2.1306 | Val Acc: 49.17%
+Epoch [14/50] Train Loss: 0.0068 | Train Acc: 99.80% | Val Loss: 2.1205 | Val Acc: 44.17%
+Epoch [15/50] Train Loss: 0.0341 | Train Acc: 98.80% | Val Loss: 2.0386 | Val Acc: 47.50%
+Epoch [16/50] Train Loss: 0.0966 | Train Acc: 97.20% | Val Loss: 2.5075 | Val Acc: 41.67%
+Epoch [17/50] Train Loss: 0.1263 | Train Acc: 96.00% | Val Loss: 2.0984 | Val Acc: 53.33%
+Epoch [18/50] Train Loss: 0.0376 | Train Acc: 99.00% | Val Loss: 2.1925 | Val Acc: 52.50%
+Epoch [19/50] Train Loss: 0.0787 | Train Acc: 97.40% | Val Loss: 2.7746 | Val Acc: 48.33%
+Epoch [20/50] Train Loss: 0.0668 | Train Acc: 97.60% | Val Loss: 2.5392 | Val Acc: 48.33%
+Epoch [21/50] Train Loss: 0.1603 | Train Acc: 96.00% | Val Loss: 3.1584 | Val Acc: 45.83%
+Epoch [22/50] Train Loss: 0.0979 | Train Acc: 97.20% | Val Loss: 2.9884 | Val Acc: 41.67%
+Epoch [23/50] Train Loss: 0.0588 | Train Acc: 98.20% | Val Loss: 2.6187 | Val Acc: 43.33%
+Epoch [24/50] Train Loss: 0.1279 | Train Acc: 97.60% | Val Loss: 2.3200 | Val Acc: 47.50%
+Epoch [25/50] Train Loss: 0.0807 | Train Acc: 97.60% | Val Loss: 3.1160 | Val Acc: 35.83%
+Epoch [26/50] Train Loss: 0.0661 | Train Acc: 97.60% | Val Loss: 3.2594 | Val Acc: 40.00%
+Epoch [27/50] Train Loss: 0.0568 | Train Acc: 98.20% | Val Loss: 2.8493 | Val Acc: 44.17%
+Epoch [28/50] Train Loss: 0.0197 | Train Acc: 99.40% | Val Loss: 2.7880 | Val Acc: 43.33%
+Epoch [29/50] Train Loss: 0.0360 | Train Acc: 98.40% | Val Loss: 3.0420 | Val Acc: 34.17%
+Epoch [30/50] Train Loss: 0.0785 | Train Acc: 97.40% | Val Loss: 3.1053 | Val Acc: 30.83%
+Epoch [31/50] Train Loss: 0.0870 | Train Acc: 97.60% | Val Loss: 3.4428 | Val Acc: 30.00%
+Epoch [32/50] Train Loss: 0.0895 | Train Acc: 97.40% | Val Loss: 3.1245 | Val Acc: 35.00%
+Epoch [33/50] Train Loss: 0.0120 | Train Acc: 99.60% | Val Loss: 3.0711 | Val Acc: 35.00%
+Epoch [34/50] Train Loss: 0.0189 | Train Acc: 99.40% | Val Loss: 3.3684 | Val Acc: 36.67%
+Epoch [35/50] Train Loss: 0.0127 | Train Acc: 99.40% | Val Loss: 3.1068 | Val Acc: 40.83%
+Epoch [36/50] Train Loss: 0.0379 | Train Acc: 98.60% | Val Loss: 3.1043 | Val Acc: 30.83%
+Epoch [37/50] Train Loss: 0.0223 | Train Acc: 99.00% | Val Loss: 2.6473 | Val Acc: 44.17%
+Epoch [38/50] Train Loss: 0.0033 | Train Acc: 100.00% | Val Loss: 2.8655 | Val Acc: 40.83%
+Epoch [39/50] Train Loss: 0.0054 | Train Acc: 100.00% | Val Loss: 3.0090 | Val Acc: 37.50%
+Epoch [40/50] Train Loss: 0.0013 | Train Acc: 100.00% | Val Loss: 3.1066 | Val Acc: 40.00%
+Epoch [41/50] Train Loss: 0.0025 | Train Acc: 100.00% | Val Loss: 2.9728 | Val Acc: 43.33%
+Epoch [42/50] Train Loss: 0.0012 | Train Acc: 100.00% | Val Loss: 2.6758 | Val Acc: 45.83%
+Epoch [43/50] Train Loss: 0.0270 | Train Acc: 99.00% | Val Loss: 2.8105 | Val Acc: 45.83%
+Epoch [44/50] Train Loss: 0.0268 | Train Acc: 98.80% | Val Loss: 3.3934 | Val Acc: 29.17%
+Epoch [45/50] Train Loss: 0.0199 | Train Acc: 99.40% | Val Loss: 3.1851 | Val Acc: 35.83%
+Epoch [46/50] Train Loss: 0.0283 | Train Acc: 99.60% | Val Loss: 3.3423 | Val Acc: 36.67%
+Epoch [47/50] Train Loss: 0.0106 | Train Acc: 99.60% | Val Loss: 3.3349 | Val Acc: 35.00%
+Epoch [48/50] Train Loss: 0.0177 | Train Acc: 99.40% | Val Loss: 2.7634 | Val Acc: 41.67%
+Epoch [49/50] Train Loss: 0.0036 | Train Acc: 100.00% | Val Loss: 3.0311 | Val Acc: 36.67%
+Epoch [50/50] Train Loss: 0.0106 | Train Acc: 99.40% | Val Loss: 2.7759 | Val Acc: 41.67%
+
+Best validation accuracy: 53.33%
+
+=== Simple 3D CNN ===
+Epoch 1/30: Train loss=2.3122, Train acc=14.60% | Val loss=2.2880, Val acc=11.67%
+Epoch 2/30: Train loss=2.1359, Train acc=25.00% | Val loss=2.2089, Val acc=18.33%
+Epoch 3/30: Train loss=2.0637, Train acc=24.40% | Val loss=2.3529, Val acc=15.00%
+Epoch 4/30: Train loss=1.9428, Train acc=28.40% | Val loss=2.1939, Val acc=22.50%
+Epoch 5/30: Train loss=1.8804, Train acc=34.80% | Val loss=2.3237, Val acc=14.17%
+Epoch 6/30: Train loss=1.7740, Train acc=37.00% | Val loss=2.1352, Val acc=20.00%
+Epoch 7/30: Train loss=1.7123, Train acc=37.20% | Val loss=2.2375, Val acc=16.67%
+Epoch 8/30: Train loss=1.6312, Train acc=46.60% | Val loss=2.4299, Val acc=22.50%
+Epoch 9/30: Train loss=1.6494, Train acc=43.60% | Val loss=2.5271, Val acc=17.50%
+Epoch 10/30: Train loss=1.5712, Train acc=45.60% | Val loss=2.5417, Val acc=26.67%
+Epoch 11/30: Train loss=1.5890, Train acc=45.80% | Val loss=2.3014, Val acc=14.17%
+Epoch 12/30: Train loss=1.5354, Train acc=50.80% | Val loss=2.3751, Val acc=16.67%
+Epoch 13/30: Train loss=1.4541, Train acc=51.00% | Val loss=2.4158, Val acc=17.50%
+Epoch 14/30: Train loss=1.4136, Train acc=54.60% | Val loss=2.6078, Val acc=20.00%
+Epoch 15/30: Train loss=1.3412, Train acc=55.80% | Val loss=2.8097, Val acc=17.50%
+Epoch 16/30: Train loss=1.3442, Train acc=54.60% | Val loss=2.4655, Val acc=15.83%
+Epoch 17/30: Train loss=1.3174, Train acc=56.20% | Val loss=3.0309, Val acc=23.33%
+Epoch 18/30: Train loss=1.2879, Train acc=58.00% | Val loss=3.1028, Val acc=17.50%
+Epoch 19/30: Train loss=1.2184, Train acc=60.20% | Val loss=2.5579, Val acc=21.67%
+Epoch 20/30: Train loss=1.2383, Train acc=57.60% | Val loss=2.6421, Val acc=25.00%
+Epoch 21/30: Train loss=1.1116, Train acc=65.00% | Val loss=2.3338, Val acc=18.33%
+Epoch 22/30: Train loss=1.0464, Train acc=68.60% | Val loss=2.5582, Val acc=22.50%
+Epoch 23/30: Train loss=1.1162, Train acc=63.00% | Val loss=2.9168, Val acc=25.00%
+Epoch 24/30: Train loss=1.0292, Train acc=65.60% | Val loss=2.6531, Val acc=27.50%
+Epoch 25/30: Train loss=0.9747, Train acc=70.00% | Val loss=2.7868, Val acc=28.33%
+Epoch 26/30: Train loss=0.9180, Train acc=72.00% | Val loss=2.9208, Val acc=29.17%
+Epoch 27/30: Train loss=0.8764, Train acc=72.20% | Val loss=2.7789, Val acc=25.83%
+Epoch 28/30: Train loss=0.8671, Train acc=72.80% | Val loss=2.6663, Val acc=24.17%
+Epoch 29/30: Train loss=0.8995, Train acc=72.20% | Val loss=3.6491, Val acc=21.67%
+Epoch 30/30: Train loss=0.8215, Train acc=73.80% | Val loss=2.6844, Val acc=31.67%
+
+Validation accuracies -> Early Fusion (Scratch): 29.17% | Early Fusion (Pretrained): 53.33% | 3D CNN: 31.67%
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 29805872: <project2> in cluster <dcc> Done
+
+Job <project2> was submitted from host <hpclogin1> by user <s262983> in cluster <dcc> at Sat Oct 24 10:45:03 2026
+Job was executed on host(s) <4*n-62-18-13>, in queue <c02516>, as user <s262983> in cluster <dcc> at Sat Oct 24 10:45:03 2026
+</zhome/e5/5/233066> was used as the home directory.
+</zhome/e5/5/233066/project2> was used as the working directory.
+Started at Sat Oct 24 10:45:03 2026
+Terminated at Sat Oct 24 11:00:55 2026
+Results reported at Sat Oct 24 11:00:55 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+### ------------- queue (course queue) ----------------
+#BSUB -q c02516
+### ------------- GPU request ----------------
+#BSUB -gpu "num=1:mode=exclusive_process"
+### ------------- job name ----------------
+#BSUB -J project2
+### ------------- cores ----------------
+#BSUB -n 4
+#BSUB -R "span[hosts=1]"
+### ------------- CPU memory ----------------
+#BSUB -R "rusage[mem=20GB]"
+### ------------- wall-clock time (max allowed is 12:00) ----------------
+#BSUB -W 12:00
+### ------------- output and error files (created in the folder where you run bsub) ----------------
+#BSUB -o OUTPUT_FILE%J.out
+#BSUB -e OUTPUT_FILE%J.err
+
+source ~/venv_1/bin/activate
+python traincnn.py --root /work3/ppar/data/ucf101
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   872.22 sec.
+    Max Memory :                                 1343 MB
+    Average Memory :                             1250.12 MB
+    Total Requested Memory :                     81920.00 MB
+    Delta Memory :                               80577.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                9
+    Run time :                                   952 sec.
+    Turnaround time :                            952 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <OUTPUT_FILE29805872.err> for stderr output of this job.
+
