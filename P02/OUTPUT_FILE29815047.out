@@ -1,0 +1,86 @@
+Train: 500 | Val: 120
+Videos: torch.Size([8, 3, 10, 112, 112])
+Labels: torch.Size([8])
+Device: cuda
+
+=== Pretrained 3D CNN (R3D-18, Kinetics-400) ===
+Trainable parameters: 33171402
+Epoch 1/15: Train loss=1.2370, Train acc=65.40% | Val loss=0.8405, Val acc=75.00%
+Epoch 2/15: Train loss=0.2278, Train acc=98.00% | Val loss=0.6591, Val acc=80.00%
+Epoch 3/15: Train loss=0.1293, Train acc=99.00% | Val loss=0.5964, Val acc=79.17%
+Epoch 4/15: Train loss=0.0588, Train acc=99.80% | Val loss=0.5417, Val acc=80.00%
+Epoch 5/15: Train loss=0.0574, Train acc=99.40% | Val loss=0.5247, Val acc=82.50%
+Epoch 6/15: Train loss=0.0410, Train acc=99.80% | Val loss=0.4912, Val acc=86.67%
+Epoch 7/15: Train loss=0.0321, Train acc=100.00% | Val loss=0.4668, Val acc=85.83%
+Epoch 8/15: Train loss=0.0394, Train acc=100.00% | Val loss=0.4916, Val acc=85.00%
+Epoch 9/15: Train loss=0.0296, Train acc=100.00% | Val loss=0.4509, Val acc=84.17%
+Epoch 10/15: Train loss=0.0228, Train acc=100.00% | Val loss=0.5201, Val acc=85.83%
+Epoch 11/15: Train loss=0.0319, Train acc=99.80% | Val loss=0.4864, Val acc=81.67%
+Epoch 12/15: Train loss=0.0280, Train acc=99.60% | Val loss=0.4832, Val acc=80.83%
+Epoch 13/15: Train loss=0.0284, Train acc=99.60% | Val loss=0.4459, Val acc=83.33%
+Epoch 14/15: Train loss=0.0205, Train acc=99.80% | Val loss=0.5926, Val acc=77.50%
+Epoch 15/15: Train loss=0.0347, Train acc=99.60% | Val loss=0.6145, Val acc=80.83%
+
+Final val acc: 80.83% | mean of last 5 epochs: 80.83%
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 29815047: <project2> in cluster <dcc> Done
+
+Job <project2> was submitted from host <hpclogin1> by user <s262983> in cluster <dcc> at Sun Oct 25 16:25:38 2026
+Job was executed on host(s) <4*n-62-18-13>, in queue <c02516>, as user <s262983> in cluster <dcc> at Sun Oct 25 16:25:40 2026
+</zhome/e5/5/233066> was used as the home directory.
+</zhome/e5/5/233066/project2> was used as the working directory.
+Started at Sun Oct 25 16:25:40 2026
+Terminated at Sun Oct 25 16:30:37 2026
+Results reported at Sun Oct 25 16:30:37 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+### ------------- queue (course queue) ----------------
+#BSUB -q c02516
+### ------------- GPU request ----------------
+#BSUB -gpu "num=1:mode=exclusive_process"
+### ------------- job name ----------------
+#BSUB -J project2
+### ------------- cores ----------------
+#BSUB -n 4
+#BSUB -R "span[hosts=1]"
+### ------------- CPU memory ----------------
+#BSUB -R "rusage[mem=20GB]"
+### ------------- wall-clock time (max allowed is 12:00) ----------------
+#BSUB -W 12:00
+### ------------- output and error files (created in the folder where you run bsub) ----------------
+#BSUB -o OUTPUT_FILE%J.out
+#BSUB -e OUTPUT_FILE%J.err
+
+source ~/venv_1/bin/activate
+python trainpretrained3dcnn.py --root /work3/ppar/data/ucf101
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   280.54 sec.
+    Max Memory :                                 1068 MB
+    Average Memory :                             1044.00 MB
+    Total Requested Memory :                     81920.00 MB
+    Delta Memory :                               80852.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                9
+    Run time :                                   297 sec.
+    Turnaround time :                            299 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <OUTPUT_FILE29815047.err> for stderr output of this job.
+
