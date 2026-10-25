@@ -5,10 +5,11 @@ import torch.nn.functional as F
 from torch.utils.data import DataLoader
 from torchvision import transforms
 from torchvision.models import resnet18, ResNet18_Weights
+from torchvision.models.video import r3d_18, R3D_18_Weights
 
 from datasets import FrameVideoDataset
 
-# First we define a 2D CNN with early fusion
+# First we define  a 2D CNN with early fusion
 class EarlyFusionCNN(nn.Module):
     def __init__(self, num_classes=10):
         super().__init__()
@@ -173,4 +174,28 @@ class PretrainedEarlyFusionCNN(nn.Module):
         # Early fusion: combine all frames into the channel dimension
         x = x.reshape(B, T * C, H, W)
 
+        return self.backbone(x)
+
+
+class Pretrained3DCNN(nn.Module):
+    def __init__(self, num_classes=10, dropout=0.5):
+        super().__init__()
+        # The weights are downloaded the first time and cached in ~/.cache/torch/hub/checkpoints
+        self.backbone = r3d_18(weights=R3D_18_Weights.KINETICS400_V1)
+ 
+        # Replace the original 400-class layer by a new one for our 10 classes
+        in_features = self.backbone.fc.in_features  # 512
+        self.backbone.fc = nn.Sequential(
+            nn.Dropout(dropout),
+            nn.Linear(in_features, num_classes)
+        )
+ 
+        # The Kinetics weights expect inputs normalized with these statistics.
+        # Doing it here means the dataset transform does not need to change.
+        self.register_buffer("mean", torch.tensor([0.43216, 0.394666, 0.37645]).view(1, 3, 1, 1, 1))
+        self.register_buffer("std", torch.tensor([0.22803, 0.22145, 0.216989]).view(1, 3, 1, 1, 1))
+ 
+    def forward(self, x):
+        # x shape: [B, 3, T, H, W]
+        x = (x - self.mean) / self.std
         return self.backbone(x)
