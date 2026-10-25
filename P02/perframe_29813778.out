@@ -1,0 +1,113 @@
+
+=== Per-frame aggregation: Pretrained ResNet-18 ===
+Epoch 1/15: Train loss=0.4222, Train acc=89.88% | Val loss=0.2013, Val frame acc=94.67%, Val video acc=95.00%
+Epoch 2/15: Train loss=0.0288, Train acc=99.82% | Val loss=0.1733, Val frame acc=94.83%, Val video acc=95.00%
+Epoch 3/15: Train loss=0.0125, Train acc=99.92% | Val loss=0.1815, Val frame acc=94.58%, Val video acc=95.00%
+Epoch 4/15: Train loss=0.0077, Train acc=99.96% | Val loss=0.2054, Val frame acc=94.42%, Val video acc=94.17%
+Epoch 5/15: Train loss=0.0072, Train acc=99.90% | Val loss=0.2174, Val frame acc=94.50%, Val video acc=95.83%
+Epoch 6/15: Train loss=0.0052, Train acc=99.96% | Val loss=0.1822, Val frame acc=94.58%, Val video acc=95.00%
+Epoch 7/15: Train loss=0.0071, Train acc=99.90% | Val loss=0.1788, Val frame acc=94.75%, Val video acc=95.00%
+Epoch 8/15: Train loss=0.0132, Train acc=99.80% | Val loss=0.1624, Val frame acc=94.50%, Val video acc=95.00%
+Epoch 9/15: Train loss=0.0125, Train acc=99.80% | Val loss=0.2338, Val frame acc=94.42%, Val video acc=95.00%
+Epoch 10/15: Train loss=0.0040, Train acc=99.98% | Val loss=0.2932, Val frame acc=94.00%, Val video acc=94.17%
+Epoch 11/15: Train loss=0.0068, Train acc=99.82% | Val loss=0.2100, Val frame acc=94.58%, Val video acc=95.00%
+Epoch 12/15: Train loss=0.0036, Train acc=99.96% | Val loss=0.2373, Val frame acc=94.75%, Val video acc=95.00%
+Epoch 13/15: Train loss=0.0075, Train acc=99.90% | Val loss=0.2120, Val frame acc=93.42%, Val video acc=94.17%
+Epoch 14/15: Train loss=0.0027, Train acc=99.98% | Val loss=0.2303, Val frame acc=94.50%, Val video acc=95.83%
+Epoch 15/15: Train loss=0.0017, Train acc=100.00% | Val loss=0.1876, Val frame acc=94.75%, Val video acc=95.00%
+Best val video acc: 95.83% | TEST frame acc: 95.17% | TEST video acc: 95.00%
+
+=== Per-frame aggregation: Scratch ResNet-18 ===
+Epoch 1/30: Train loss=1.6906, Train acc=41.56% | Val loss=2.0184, Val frame acc=31.75%, Val video acc=31.67%
+Epoch 2/30: Train loss=1.0463, Train acc=64.58% | Val loss=1.5949, Val frame acc=54.75%, Val video acc=55.00%
+Epoch 3/30: Train loss=0.6980, Train acc=76.56% | Val loss=1.1254, Val frame acc=68.25%, Val video acc=70.83%
+Epoch 4/30: Train loss=0.4954, Train acc=83.68% | Val loss=1.0783, Val frame acc=68.50%, Val video acc=66.67%
+Epoch 5/30: Train loss=0.3701, Train acc=88.08% | Val loss=0.8348, Val frame acc=75.58%, Val video acc=75.83%
+Epoch 6/30: Train loss=0.3092, Train acc=90.26% | Val loss=1.0898, Val frame acc=75.25%, Val video acc=77.50%
+Epoch 7/30: Train loss=0.2570, Train acc=91.52% | Val loss=1.5833, Val frame acc=65.08%, Val video acc=66.67%
+Epoch 8/30: Train loss=0.2378, Train acc=92.26% | Val loss=0.7639, Val frame acc=85.33%, Val video acc=87.50%
+Epoch 9/30: Train loss=0.2562, Train acc=91.64% | Val loss=0.7782, Val frame acc=80.58%, Val video acc=83.33%
+Epoch 10/30: Train loss=0.1788, Train acc=94.18% | Val loss=1.0650, Val frame acc=82.25%, Val video acc=84.17%
+Epoch 11/30: Train loss=0.1695, Train acc=94.58% | Val loss=0.7059, Val frame acc=86.17%, Val video acc=86.67%
+Epoch 12/30: Train loss=0.1682, Train acc=94.46% | Val loss=0.9464, Val frame acc=79.50%, Val video acc=80.83%
+Epoch 13/30: Train loss=0.2181, Train acc=93.16% | Val loss=1.0074, Val frame acc=82.33%, Val video acc=82.50%
+Epoch 14/30: Train loss=0.0986, Train acc=97.00% | Val loss=1.3407, Val frame acc=72.75%, Val video acc=75.00%
+Epoch 15/30: Train loss=0.2258, Train acc=92.76% | Val loss=0.7555, Val frame acc=83.08%, Val video acc=85.83%
+Epoch 16/30: Train loss=0.1600, Train acc=94.78% | Val loss=0.5343, Val frame acc=89.58%, Val video acc=92.50%
+Epoch 17/30: Train loss=0.1253, Train acc=95.88% | Val loss=0.7065, Val frame acc=87.25%, Val video acc=87.50%
+Epoch 18/30: Train loss=0.1151, Train acc=96.14% | Val loss=0.6918, Val frame acc=87.50%, Val video acc=88.33%
+Epoch 19/30: Train loss=0.1416, Train acc=95.50% | Val loss=1.3657, Val frame acc=74.92%, Val video acc=77.50%
+Epoch 20/30: Train loss=0.1721, Train acc=94.50% | Val loss=0.6414, Val frame acc=88.50%, Val video acc=89.17%
+Epoch 21/30: Train loss=0.1127, Train acc=96.56% | Val loss=0.6695, Val frame acc=88.08%, Val video acc=90.00%
+Epoch 22/30: Train loss=0.0713, Train acc=97.72% | Val loss=0.5793, Val frame acc=89.00%, Val video acc=90.00%
+Epoch 23/30: Train loss=0.1579, Train acc=95.24% | Val loss=0.9909, Val frame acc=79.00%, Val video acc=80.83%
+Epoch 24/30: Train loss=0.1224, Train acc=95.96% | Val loss=0.6229, Val frame acc=90.17%, Val video acc=91.67%
+Epoch 25/30: Train loss=0.1007, Train acc=96.74% | Val loss=0.6835, Val frame acc=84.75%, Val video acc=85.83%
+Epoch 26/30: Train loss=0.1190, Train acc=96.06% | Val loss=0.6683, Val frame acc=86.92%, Val video acc=86.67%
+Epoch 27/30: Train loss=0.1035, Train acc=96.48% | Val loss=0.9135, Val frame acc=88.08%, Val video acc=90.00%
+Epoch 28/30: Train loss=0.1016, Train acc=96.70% | Val loss=0.7148, Val frame acc=86.75%, Val video acc=88.33%
+Epoch 29/30: Train loss=0.0983, Train acc=96.78% | Val loss=0.8475, Val frame acc=86.83%, Val video acc=88.33%
+Epoch 30/30: Train loss=0.1011, Train acc=96.60% | Val loss=0.7481, Val frame acc=88.17%, Val video acc=87.50%
+Best val video acc: 92.50% | TEST frame acc: 88.92% | TEST video acc: 91.67%
+
+Summary (val video acc / test frame acc / test video acc):
+Pretrained ResNet-18: 95.83% / 95.17% / 95.00%
+Scratch ResNet-18: 92.50% / 88.92% / 91.67%
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 29813778: <perframe> in cluster <dcc> Done
+
+Job <perframe> was submitted from host <hpclogin1> by user <s261907> in cluster <dcc> at Sun Oct 25 11:28:32 2026
+Job was executed on host(s) <4*n-62-20-10>, in queue <gpuv100>, as user <s261907> in cluster <dcc> at Sun Oct 25 11:28:33 2026
+</zhome/f8/b/231940> was used as the home directory.
+</zhome/f8/b/231940/VideoClasification> was used as the working directory.
+Started at Sun Oct 25 11:28:33 2026
+Terminated at Sun Oct 25 11:34:41 2026
+Results reported at Sun Oct 25 11:34:41 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/sh
+#BSUB -J perframe
+#BSUB -q gpuv100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 4
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=4GB]"
+#BSUB -W 02:00
+#BSUB -o logs/perframe_%J.out
+#BSUB -e logs/perframe_%J.err
+
+module load python3
+source ~/venvs/dlcv/bin/activate
+
+python3 simple_train-2.py
+
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   1421.00 sec.
+    Max Memory :                                 1251 MB
+    Average Memory :                             1021.00 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               15133.00 MB
+    Max Swap :                                   -
+    Max Processes :                              8
+    Max Threads :                                26
+    Run time :                                   368 sec.
+    Turnaround time :                            369 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <logs/perframe_29813778.err> for stderr output of this job.
+
