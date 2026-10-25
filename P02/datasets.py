@@ -118,6 +118,51 @@ class FrameVideoDataset(torch.utils.data.Dataset):
         return frames
 
 
+class FlowVideoDataset(torch.utils.data.Dataset):
+    """Pre-computed RAFT optical flow (only in ucf101_noleakage).
+
+    Files: flows/<split>/<class>/<video>/flow_i_(i+1).npy, each float32
+    [2, 224, 224] = (dx, dy) in pixels at 224x224.
+    Returns (flow [2*9, S, S], label) with channel order dx1, dy1, ..., dx9, dy9.
+    Flow is resized to S x S and its VALUES are multiplied by S/224, so they stay
+    displacements in pixels at the new resolution; then divided by `flow_norm`
+    and clipped to [-clip, clip].
+    """
+    FLOW_RES, N_FLOWS = 224, 9
+
+    def __init__(self, root_dir=None, split='train', img_size=112,
+                 flow_norm=10.0, clip=5.0, subtract_mean=False):
+        import numpy as np  # noqa: F401  (checked here so the error is early)
+        root_dir = _resolve_root_dir(root_dir)
+        self.video_dirs = sorted(glob(os.path.join(root_dir, 'flows', split, '*', '*')))
+        if not self.video_dirs:
+            raise FileNotFoundError(f'No flow folders in {root_dir}/flows/{split}')
+        self.video_names = [os.path.basename(d) for d in self.video_dirs]
+        df = _load_metadata(root_dir, split)
+        self.labels = dict(zip(df['video_name'], df['label']))
+        self.img_size, self.flow_norm, self.clip = img_size, flow_norm, clip
+        self.subtract_mean = subtract_mean
+
+    def __len__(self):
+        return len(self.video_dirs)
+
+    def __getitem__(self, idx):
+        import numpy as np
+        import torch.nn.functional as F
+        d = self.video_dirs[idx]
+        flows = [np.load(os.path.join(d, f'flow_{i}_{i + 1}.npy')) for i in range(1, self.N_FLOWS + 1)]
+        x = torch.from_numpy(np.stack(flows)).float()              # [9, 2, 224, 224]
+        if self.subtract_mean:                                     # remove camera motion
+            x = x - x.mean(dim=(2, 3), keepdim=True)
+        if self.img_size != x.shape[-1]:
+            x = F.interpolate(x, size=(self.img_size, self.img_size),
+                              mode='bilinear', align_corners=False)
+            x = x * (self.img_size / self.FLOW_RES)
+        x = (x / self.flow_norm).clamp(-self.clip, self.clip)
+        x = x.reshape(2 * self.N_FLOWS, self.img_size, self.img_size)
+        return x, self.labels[self.video_names[idx]]
+
+
 if __name__ == '__main__':
     from torch.utils.data import DataLoader
 
