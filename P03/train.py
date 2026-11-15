@@ -9,11 +9,11 @@ import torch.nn as nn
 from torch.utils.data import DataLoader
 
 from datasets.datasets import PH2Dataset, DRIVEDataset
-from models.models import EncoderDecoderCNN, EncoderDecoderImproved, UNet, UNetImproved
+from models import EncoderDecoderCNN, EncoderDecoderImproved, UNet, UNetImproved
 
 # Configuration
-DATASET = "DRIVE"          # "PH2" or "DRIVE"
-MODEL = "encoder_decoder"           # "unet" or "encoder_decoder"
+DATASET = "PH2"          # "PH2" or "DRIVE"
+MODEL = "unet_improved"           # "unet" or "encoder_decoder"
 
 EPOCHS = 50
 LEARNING_RATE = 1e-4

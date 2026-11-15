@@ -1,0 +1,108 @@
+Device: cuda
+Epoch 1/50 | Train Loss: 0.4677 | Val Loss: 0.5782 | Val Dice: 0.4135
+Epoch 2/50 | Train Loss: 0.3322 | Val Loss: 0.4500 | Val Dice: 0.6781
+Epoch 3/50 | Train Loss: 0.3033 | Val Loss: 0.4133 | Val Dice: 0.6911
+Epoch 4/50 | Train Loss: 0.2695 | Val Loss: 0.4163 | Val Dice: 0.7192
+Epoch 5/50 | Train Loss: 0.2414 | Val Loss: 0.3875 | Val Dice: 0.7700
+Epoch 6/50 | Train Loss: 0.2215 | Val Loss: 0.3660 | Val Dice: 0.8191
+Epoch 7/50 | Train Loss: 0.2001 | Val Loss: 0.3865 | Val Dice: 0.7996
+Epoch 8/50 | Train Loss: 0.1913 | Val Loss: 0.5173 | Val Dice: 0.6578
+Epoch 9/50 | Train Loss: 0.1685 | Val Loss: 0.4205 | Val Dice: 0.7413
+Epoch 10/50 | Train Loss: 0.1660 | Val Loss: 0.3736 | Val Dice: 0.8073
+Epoch 11/50 | Train Loss: 0.1535 | Val Loss: 0.3799 | Val Dice: 0.8013
+Epoch 12/50 | Train Loss: 0.1233 | Val Loss: 0.3489 | Val Dice: 0.8128
+Epoch 13/50 | Train Loss: 0.1336 | Val Loss: 0.3369 | Val Dice: 0.8179
+Epoch 14/50 | Train Loss: 0.1223 | Val Loss: 0.3575 | Val Dice: 0.7882
+Epoch 15/50 | Train Loss: 0.1120 | Val Loss: 0.3595 | Val Dice: 0.8154
+Epoch 16/50 | Train Loss: 0.1084 | Val Loss: 0.3475 | Val Dice: 0.8099
+Epoch 17/50 | Train Loss: 0.0893 | Val Loss: 0.3625 | Val Dice: 0.8138
+Epoch 18/50 | Train Loss: 0.0813 | Val Loss: 0.3399 | Val Dice: 0.8122
+Epoch 19/50 | Train Loss: 0.0835 | Val Loss: 0.3499 | Val Dice: 0.8013
+Epoch 20/50 | Train Loss: 0.0734 | Val Loss: 0.3237 | Val Dice: 0.8155
+Epoch 21/50 | Train Loss: 0.0726 | Val Loss: 0.3545 | Val Dice: 0.7927
+Epoch 22/50 | Train Loss: 0.0632 | Val Loss: 0.3222 | Val Dice: 0.8100
+Epoch 23/50 | Train Loss: 0.0455 | Val Loss: 0.3523 | Val Dice: 0.8087
+Epoch 24/50 | Train Loss: 0.0498 | Val Loss: 0.4223 | Val Dice: 0.7611
+Epoch 25/50 | Train Loss: 0.0457 | Val Loss: 0.3666 | Val Dice: 0.8121
+Epoch 26/50 | Train Loss: 0.0428 | Val Loss: 0.3564 | Val Dice: 0.8044
+Epoch 27/50 | Train Loss: 0.0413 | Val Loss: 0.4104 | Val Dice: 0.7704
+Epoch 28/50 | Train Loss: 0.0332 | Val Loss: 0.3576 | Val Dice: 0.7977
+Epoch 29/50 | Train Loss: 0.0299 | Val Loss: 0.3661 | Val Dice: 0.8062
+Epoch 30/50 | Train Loss: 0.0237 | Val Loss: 0.4037 | Val Dice: 0.7826
+Epoch 31/50 | Train Loss: 0.0201 | Val Loss: 0.4078 | Val Dice: 0.7690
+Epoch 32/50 | Train Loss: 0.0180 | Val Loss: 0.3856 | Val Dice: 0.7779
+Epoch 33/50 | Train Loss: 0.0171 | Val Loss: 0.3796 | Val Dice: 0.7850
+Epoch 34/50 | Train Loss: 0.0166 | Val Loss: 0.3814 | Val Dice: 0.7925
+Epoch 35/50 | Train Loss: 0.0160 | Val Loss: 0.3884 | Val Dice: 0.7743
+Epoch 36/50 | Train Loss: 0.0163 | Val Loss: 0.4979 | Val Dice: 0.7039
+Epoch 37/50 | Train Loss: 0.0252 | Val Loss: 0.3572 | Val Dice: 0.8083
+Epoch 38/50 | Train Loss: 0.0183 | Val Loss: 0.3556 | Val Dice: 0.7945
+Epoch 39/50 | Train Loss: 0.0124 | Val Loss: 0.3990 | Val Dice: 0.7702
+Epoch 40/50 | Train Loss: 0.0139 | Val Loss: 0.4292 | Val Dice: 0.7195
+Epoch 41/50 | Train Loss: 0.0305 | Val Loss: 0.4041 | Val Dice: 0.7557
+Epoch 42/50 | Train Loss: 0.0214 | Val Loss: 0.4123 | Val Dice: 0.7666
+Epoch 43/50 | Train Loss: 0.0156 | Val Loss: 0.3595 | Val Dice: 0.8024
+Epoch 44/50 | Train Loss: 0.0105 | Val Loss: 0.3963 | Val Dice: 0.7881
+Epoch 45/50 | Train Loss: 0.0092 | Val Loss: 0.4895 | Val Dice: 0.7311
+Epoch 46/50 | Train Loss: 0.0201 | Val Loss: 0.3607 | Val Dice: 0.7859
+Epoch 47/50 | Train Loss: 0.0212 | Val Loss: 0.4031 | Val Dice: 0.7777
+Epoch 48/50 | Train Loss: 0.0134 | Val Loss: 0.3723 | Val Dice: 0.7716
+Epoch 49/50 | Train Loss: 0.0108 | Val Loss: 0.4062 | Val Dice: 0.7595
+Epoch 50/50 | Train Loss: 0.0086 | Val Loss: 0.4142 | Val Dice: 0.7610
+
+Best validation Dice: 0.8191
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 30055069: <train_weak> in cluster <dcc> Done
+
+Job <train_weak> was submitted from host <hpclogin1> by user <s261907> in cluster <dcc> at Sat Nov 14 17:17:11 2026
+Job was executed on host(s) <4*n-62-12-20>, in queue <gpua100>, as user <s261907> in cluster <dcc> at Sat Nov 14 17:17:12 2026
+</zhome/f8/b/231940> was used as the home directory.
+</dtu/blackhole/04/231940/IDLCV/P03> was used as the working directory.
+Started at Sat Nov 14 17:17:12 2026
+Terminated at Sat Nov 14 17:18:32 2026
+Results reported at Sat Nov 14 17:18:32 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -J train_weak
+#BSUB -q gpua100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 4
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=4GB]"
+#BSUB -W 00:30
+#BSUB -o hpc/logs/train_weak_%J.out
+#BSUB -e hpc/logs/train_weak_%J.err
+
+cd /dtu/blackhole/04/231940/IDLCV/P03
+uv run train_weak.py
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   78.00 sec.
+    Max Memory :                                 1298 MB
+    Average Memory :                             1298.00 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               15086.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                11
+    Run time :                                   80 sec.
+    Turnaround time :                            81 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <hpc/logs/train_weak_30055069.err> for stderr output of this job.
+

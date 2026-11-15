@@ -1,0 +1,665 @@
+===== Strategy: center | Clicks: 5 =====
+Strategy: center | Clicks: 5 positive, 5 negative
+Device: cuda
+Epoch 1/50 | Train Loss: 0.4714 | Val Loss: 0.5856 | Val Dice: 0.4104
+Epoch 2/50 | Train Loss: 0.3323 | Val Loss: 0.4659 | Val Dice: 0.6608
+Epoch 3/50 | Train Loss: 0.3066 | Val Loss: 0.4359 | Val Dice: 0.6694
+Epoch 4/50 | Train Loss: 0.2712 | Val Loss: 0.4304 | Val Dice: 0.6873
+Epoch 5/50 | Train Loss: 0.2437 | Val Loss: 0.4085 | Val Dice: 0.7102
+Epoch 6/50 | Train Loss: 0.2238 | Val Loss: 0.3731 | Val Dice: 0.7729
+Epoch 7/50 | Train Loss: 0.2025 | Val Loss: 0.4365 | Val Dice: 0.7445
+Epoch 8/50 | Train Loss: 0.1898 | Val Loss: 0.4420 | Val Dice: 0.7359
+Epoch 9/50 | Train Loss: 0.1550 | Val Loss: 0.4372 | Val Dice: 0.7353
+Epoch 10/50 | Train Loss: 0.1516 | Val Loss: 0.4251 | Val Dice: 0.7788
+Epoch 11/50 | Train Loss: 0.1369 | Val Loss: 0.3809 | Val Dice: 0.7991
+Epoch 12/50 | Train Loss: 0.1084 | Val Loss: 0.3932 | Val Dice: 0.7824
+Epoch 13/50 | Train Loss: 0.1173 | Val Loss: 0.3586 | Val Dice: 0.8011
+Epoch 14/50 | Train Loss: 0.1104 | Val Loss: 0.4035 | Val Dice: 0.7644
+Epoch 15/50 | Train Loss: 0.0969 | Val Loss: 0.3577 | Val Dice: 0.7933
+Epoch 16/50 | Train Loss: 0.0826 | Val Loss: 0.4375 | Val Dice: 0.7089
+Epoch 17/50 | Train Loss: 0.0681 | Val Loss: 0.3757 | Val Dice: 0.7939
+Epoch 18/50 | Train Loss: 0.0518 | Val Loss: 0.3553 | Val Dice: 0.7863
+Epoch 19/50 | Train Loss: 0.0468 | Val Loss: 0.4245 | Val Dice: 0.7180
+Epoch 20/50 | Train Loss: 0.0516 | Val Loss: 0.3864 | Val Dice: 0.7702
+Epoch 21/50 | Train Loss: 0.0481 | Val Loss: 0.3937 | Val Dice: 0.7705
+Epoch 22/50 | Train Loss: 0.0369 | Val Loss: 0.3581 | Val Dice: 0.7717
+Epoch 23/50 | Train Loss: 0.0260 | Val Loss: 0.3929 | Val Dice: 0.7598
+Epoch 24/50 | Train Loss: 0.0424 | Val Loss: 0.4941 | Val Dice: 0.7131
+Epoch 25/50 | Train Loss: 0.0345 | Val Loss: 0.3925 | Val Dice: 0.7601
+Epoch 26/50 | Train Loss: 0.0334 | Val Loss: 0.4257 | Val Dice: 0.7495
+Epoch 27/50 | Train Loss: 0.0233 | Val Loss: 0.3979 | Val Dice: 0.7613
+Epoch 28/50 | Train Loss: 0.0158 | Val Loss: 0.4312 | Val Dice: 0.7370
+Epoch 29/50 | Train Loss: 0.0127 | Val Loss: 0.4053 | Val Dice: 0.7690
+Epoch 30/50 | Train Loss: 0.0113 | Val Loss: 0.4126 | Val Dice: 0.7403
+Epoch 31/50 | Train Loss: 0.0098 | Val Loss: 0.4192 | Val Dice: 0.7458
+Epoch 32/50 | Train Loss: 0.0078 | Val Loss: 0.4183 | Val Dice: 0.7628
+Epoch 33/50 | Train Loss: 0.0080 | Val Loss: 0.4246 | Val Dice: 0.7417
+Epoch 34/50 | Train Loss: 0.0072 | Val Loss: 0.4276 | Val Dice: 0.7405
+Epoch 35/50 | Train Loss: 0.0077 | Val Loss: 0.4365 | Val Dice: 0.7169
+Epoch 36/50 | Train Loss: 0.0208 | Val Loss: 0.3635 | Val Dice: 0.7641
+Epoch 37/50 | Train Loss: 0.0294 | Val Loss: 0.4898 | Val Dice: 0.7047
+Epoch 38/50 | Train Loss: 0.0153 | Val Loss: 0.3742 | Val Dice: 0.7786
+Epoch 39/50 | Train Loss: 0.0105 | Val Loss: 0.4025 | Val Dice: 0.7582
+Epoch 40/50 | Train Loss: 0.0364 | Val Loss: 0.4335 | Val Dice: 0.7305
+Epoch 41/50 | Train Loss: 0.0429 | Val Loss: 0.4181 | Val Dice: 0.7117
+Epoch 42/50 | Train Loss: 0.0306 | Val Loss: 0.4420 | Val Dice: 0.7173
+Epoch 43/50 | Train Loss: 0.0219 | Val Loss: 0.3927 | Val Dice: 0.7451
+Epoch 44/50 | Train Loss: 0.0120 | Val Loss: 0.4719 | Val Dice: 0.7290
+Epoch 45/50 | Train Loss: 0.0080 | Val Loss: 0.4676 | Val Dice: 0.7357
+Epoch 46/50 | Train Loss: 0.0076 | Val Loss: 0.4458 | Val Dice: 0.7347
+Epoch 47/50 | Train Loss: 0.0054 | Val Loss: 0.4656 | Val Dice: 0.7233
+Epoch 48/50 | Train Loss: 0.0105 | Val Loss: 0.4779 | Val Dice: 0.7235
+Epoch 49/50 | Train Loss: 0.0087 | Val Loss: 0.4740 | Val Dice: 0.7119
+Epoch 50/50 | Train Loss: 0.0110 | Val Loss: 0.4563 | Val Dice: 0.7116
+
+Best validation Dice: 0.8011
+Checkpoint: checkpoints/PH2_unet_improved_clicks_center_5_best.pth
+Split      Dice      IoU      Acc     Sens     Spec
+train    0.8140   0.7007   0.8905   0.8543   0.9155
+val      0.8011   0.6845   0.8898   0.8748   0.9201
+test     0.8232   0.7156   0.8990   0.8584   0.9151
+===== Strategy: center | Clicks: 10 =====
+Strategy: center | Clicks: 10 positive, 10 negative
+Device: cuda
+Epoch 1/50 | Train Loss: 0.4648 | Val Loss: 0.5848 | Val Dice: 0.4160
+Epoch 2/50 | Train Loss: 0.3355 | Val Loss: 0.4576 | Val Dice: 0.6670
+Epoch 3/50 | Train Loss: 0.3063 | Val Loss: 0.4222 | Val Dice: 0.6835
+Epoch 4/50 | Train Loss: 0.2729 | Val Loss: 0.4184 | Val Dice: 0.7183
+Epoch 5/50 | Train Loss: 0.2438 | Val Loss: 0.4172 | Val Dice: 0.7499
+Epoch 6/50 | Train Loss: 0.2338 | Val Loss: 0.3653 | Val Dice: 0.8032
+Epoch 7/50 | Train Loss: 0.2021 | Val Loss: 0.4265 | Val Dice: 0.7920
+Epoch 8/50 | Train Loss: 0.1947 | Val Loss: 0.4257 | Val Dice: 0.7888
+Epoch 9/50 | Train Loss: 0.1698 | Val Loss: 0.4003 | Val Dice: 0.8128
+Epoch 10/50 | Train Loss: 0.1673 | Val Loss: 0.3756 | Val Dice: 0.8238
+Epoch 11/50 | Train Loss: 0.1576 | Val Loss: 0.3366 | Val Dice: 0.8440
+Epoch 12/50 | Train Loss: 0.1274 | Val Loss: 0.3328 | Val Dice: 0.8395
+Epoch 13/50 | Train Loss: 0.1349 | Val Loss: 0.3216 | Val Dice: 0.8418
+Epoch 14/50 | Train Loss: 0.1280 | Val Loss: 0.3451 | Val Dice: 0.8205
+Epoch 15/50 | Train Loss: 0.1111 | Val Loss: 0.3475 | Val Dice: 0.8287
+Epoch 16/50 | Train Loss: 0.1079 | Val Loss: 0.3749 | Val Dice: 0.7926
+Epoch 17/50 | Train Loss: 0.0939 | Val Loss: 0.3350 | Val Dice: 0.8123
+Epoch 18/50 | Train Loss: 0.0842 | Val Loss: 0.3345 | Val Dice: 0.8375
+Epoch 19/50 | Train Loss: 0.0819 | Val Loss: 0.4414 | Val Dice: 0.6980
+Epoch 20/50 | Train Loss: 0.0776 | Val Loss: 0.3246 | Val Dice: 0.8382
+Epoch 21/50 | Train Loss: 0.0734 | Val Loss: 0.3451 | Val Dice: 0.8059
+Epoch 22/50 | Train Loss: 0.0638 | Val Loss: 0.3231 | Val Dice: 0.8219
+Epoch 23/50 | Train Loss: 0.0542 | Val Loss: 0.3117 | Val Dice: 0.8325
+Epoch 24/50 | Train Loss: 0.0540 | Val Loss: 0.3625 | Val Dice: 0.8087
+Epoch 25/50 | Train Loss: 0.0503 | Val Loss: 0.3256 | Val Dice: 0.8124
+Epoch 26/50 | Train Loss: 0.0420 | Val Loss: 0.3555 | Val Dice: 0.8067
+Epoch 27/50 | Train Loss: 0.0337 | Val Loss: 0.3333 | Val Dice: 0.8162
+Epoch 28/50 | Train Loss: 0.0307 | Val Loss: 0.3586 | Val Dice: 0.7849
+Epoch 29/50 | Train Loss: 0.0261 | Val Loss: 0.3675 | Val Dice: 0.7945
+Epoch 30/50 | Train Loss: 0.0219 | Val Loss: 0.3826 | Val Dice: 0.7846
+Epoch 31/50 | Train Loss: 0.0200 | Val Loss: 0.3394 | Val Dice: 0.8208
+Epoch 32/50 | Train Loss: 0.0181 | Val Loss: 0.3675 | Val Dice: 0.7742
+Epoch 33/50 | Train Loss: 0.0195 | Val Loss: 0.3774 | Val Dice: 0.7689
+Epoch 34/50 | Train Loss: 0.0148 | Val Loss: 0.3348 | Val Dice: 0.8194
+Epoch 35/50 | Train Loss: 0.0129 | Val Loss: 0.3573 | Val Dice: 0.7911
+Epoch 36/50 | Train Loss: 0.0173 | Val Loss: 0.3956 | Val Dice: 0.7574
+Epoch 37/50 | Train Loss: 0.0381 | Val Loss: 0.3012 | Val Dice: 0.8032
+Epoch 38/50 | Train Loss: 0.0628 | Val Loss: 0.3465 | Val Dice: 0.8027
+Epoch 39/50 | Train Loss: 0.0363 | Val Loss: 0.4114 | Val Dice: 0.7698
+Epoch 40/50 | Train Loss: 0.0370 | Val Loss: 0.3501 | Val Dice: 0.7981
+Epoch 41/50 | Train Loss: 0.0297 | Val Loss: 0.3503 | Val Dice: 0.7940
+Epoch 42/50 | Train Loss: 0.0258 | Val Loss: 0.3501 | Val Dice: 0.7910
+Epoch 43/50 | Train Loss: 0.0210 | Val Loss: 0.3404 | Val Dice: 0.7987
+Epoch 44/50 | Train Loss: 0.0152 | Val Loss: 0.3544 | Val Dice: 0.7878
+Epoch 45/50 | Train Loss: 0.0125 | Val Loss: 0.4040 | Val Dice: 0.7471
+Epoch 46/50 | Train Loss: 0.0154 | Val Loss: 0.3832 | Val Dice: 0.7668
+Epoch 47/50 | Train Loss: 0.0125 | Val Loss: 0.3400 | Val Dice: 0.7971
+Epoch 48/50 | Train Loss: 0.0076 | Val Loss: 0.3569 | Val Dice: 0.7859
+Epoch 49/50 | Train Loss: 0.0070 | Val Loss: 0.3781 | Val Dice: 0.7743
+Epoch 50/50 | Train Loss: 0.0054 | Val Loss: 0.3773 | Val Dice: 0.7710
+
+Best validation Dice: 0.8440
+Checkpoint: checkpoints/PH2_unet_improved_clicks_center_10_best.pth
+Split      Dice      IoU      Acc     Sens     Spec
+train    0.8581   0.7649   0.9102   0.8649   0.9503
+val      0.8440   0.7531   0.9074   0.8794   0.9512
+test     0.8682   0.7836   0.9158   0.8730   0.9469
+===== Strategy: center | Clicks: 20 =====
+Strategy: center | Clicks: 20 positive, 20 negative
+Device: cuda
+Epoch 1/50 | Train Loss: 0.4634 | Val Loss: 0.5795 | Val Dice: 0.4066
+Epoch 2/50 | Train Loss: 0.3387 | Val Loss: 0.4514 | Val Dice: 0.6723
+Epoch 3/50 | Train Loss: 0.3099 | Val Loss: 0.4199 | Val Dice: 0.6926
+Epoch 4/50 | Train Loss: 0.2748 | Val Loss: 0.4289 | Val Dice: 0.7551
+Epoch 5/50 | Train Loss: 0.2473 | Val Loss: 0.3893 | Val Dice: 0.8130
+Epoch 6/50 | Train Loss: 0.2362 | Val Loss: 0.3525 | Val Dice: 0.8201
+Epoch 7/50 | Train Loss: 0.2138 | Val Loss: 0.4201 | Val Dice: 0.7948
+Epoch 8/50 | Train Loss: 0.1987 | Val Loss: 0.4100 | Val Dice: 0.7778
+Epoch 9/50 | Train Loss: 0.1743 | Val Loss: 0.3784 | Val Dice: 0.8067
+Epoch 10/50 | Train Loss: 0.1730 | Val Loss: 0.3499 | Val Dice: 0.8270
+Epoch 11/50 | Train Loss: 0.1598 | Val Loss: 0.3049 | Val Dice: 0.8523
+Epoch 12/50 | Train Loss: 0.1355 | Val Loss: 0.3260 | Val Dice: 0.8439
+Epoch 13/50 | Train Loss: 0.1401 | Val Loss: 0.2854 | Val Dice: 0.8621
+Epoch 14/50 | Train Loss: 0.1371 | Val Loss: 0.3356 | Val Dice: 0.8170
+Epoch 15/50 | Train Loss: 0.1265 | Val Loss: 0.3059 | Val Dice: 0.8563
+Epoch 16/50 | Train Loss: 0.1164 | Val Loss: 0.3341 | Val Dice: 0.8092
+Epoch 17/50 | Train Loss: 0.1065 | Val Loss: 0.3168 | Val Dice: 0.8358
+Epoch 18/50 | Train Loss: 0.1011 | Val Loss: 0.3509 | Val Dice: 0.8270
+Epoch 19/50 | Train Loss: 0.1017 | Val Loss: 0.3734 | Val Dice: 0.7727
+Epoch 20/50 | Train Loss: 0.0896 | Val Loss: 0.2832 | Val Dice: 0.8522
+Epoch 21/50 | Train Loss: 0.0940 | Val Loss: 0.2698 | Val Dice: 0.8663
+Epoch 22/50 | Train Loss: 0.0870 | Val Loss: 0.2670 | Val Dice: 0.8504
+Epoch 23/50 | Train Loss: 0.0771 | Val Loss: 0.3209 | Val Dice: 0.8204
+Epoch 24/50 | Train Loss: 0.0711 | Val Loss: 0.3398 | Val Dice: 0.8129
+Epoch 25/50 | Train Loss: 0.0708 | Val Loss: 0.2898 | Val Dice: 0.8427
+Epoch 26/50 | Train Loss: 0.0651 | Val Loss: 0.3071 | Val Dice: 0.8339
+Epoch 27/50 | Train Loss: 0.0583 | Val Loss: 0.3474 | Val Dice: 0.8057
+Epoch 28/50 | Train Loss: 0.0543 | Val Loss: 0.3456 | Val Dice: 0.7904
+Epoch 29/50 | Train Loss: 0.0480 | Val Loss: 0.3118 | Val Dice: 0.8273
+Epoch 30/50 | Train Loss: 0.0530 | Val Loss: 0.3053 | Val Dice: 0.8285
+Epoch 31/50 | Train Loss: 0.0443 | Val Loss: 0.2872 | Val Dice: 0.8393
+Epoch 32/50 | Train Loss: 0.0357 | Val Loss: 0.3564 | Val Dice: 0.7791
+Epoch 33/50 | Train Loss: 0.0358 | Val Loss: 0.3385 | Val Dice: 0.7938
+Epoch 34/50 | Train Loss: 0.0294 | Val Loss: 0.3033 | Val Dice: 0.8438
+Epoch 35/50 | Train Loss: 0.0291 | Val Loss: 0.3040 | Val Dice: 0.8200
+Epoch 36/50 | Train Loss: 0.0297 | Val Loss: 0.3160 | Val Dice: 0.8237
+Epoch 37/50 | Train Loss: 0.0367 | Val Loss: 0.2714 | Val Dice: 0.8379
+Epoch 38/50 | Train Loss: 0.0340 | Val Loss: 0.3389 | Val Dice: 0.8181
+Epoch 39/50 | Train Loss: 0.0251 | Val Loss: 0.3212 | Val Dice: 0.8224
+Epoch 40/50 | Train Loss: 0.0349 | Val Loss: 0.3212 | Val Dice: 0.8098
+Epoch 41/50 | Train Loss: 0.0354 | Val Loss: 0.3550 | Val Dice: 0.8010
+Epoch 42/50 | Train Loss: 0.0273 | Val Loss: 0.3212 | Val Dice: 0.8132
+Epoch 43/50 | Train Loss: 0.0200 | Val Loss: 0.3123 | Val Dice: 0.8241
+Epoch 44/50 | Train Loss: 0.0167 | Val Loss: 0.3248 | Val Dice: 0.8241
+Epoch 45/50 | Train Loss: 0.0146 | Val Loss: 0.3211 | Val Dice: 0.8361
+Epoch 46/50 | Train Loss: 0.0147 | Val Loss: 0.3245 | Val Dice: 0.8091
+Epoch 47/50 | Train Loss: 0.0144 | Val Loss: 0.2962 | Val Dice: 0.8331
+Epoch 48/50 | Train Loss: 0.0104 | Val Loss: 0.3393 | Val Dice: 0.8172
+Epoch 49/50 | Train Loss: 0.0097 | Val Loss: 0.3423 | Val Dice: 0.8159
+Epoch 50/50 | Train Loss: 0.0086 | Val Loss: 0.3334 | Val Dice: 0.8248
+
+Best validation Dice: 0.8663
+Checkpoint: checkpoints/PH2_unet_improved_clicks_center_20_best.pth
+Split      Dice      IoU      Acc     Sens     Spec
+train    0.8757   0.7853   0.9257   0.8942   0.9594
+val      0.8663   0.7722   0.9314   0.9160   0.9565
+test     0.8894   0.8111   0.9352   0.9012   0.9666
+===== Strategy: center | Clicks: 40 =====
+Strategy: center | Clicks: 40 positive, 40 negative
+Device: cuda
+Epoch 1/50 | Train Loss: 0.4666 | Val Loss: 0.5724 | Val Dice: 0.4191
+Epoch 2/50 | Train Loss: 0.3430 | Val Loss: 0.4456 | Val Dice: 0.6803
+Epoch 3/50 | Train Loss: 0.3141 | Val Loss: 0.4246 | Val Dice: 0.7790
+Epoch 4/50 | Train Loss: 0.2784 | Val Loss: 0.4051 | Val Dice: 0.7867
+Epoch 5/50 | Train Loss: 0.2499 | Val Loss: 0.3724 | Val Dice: 0.8138
+Epoch 6/50 | Train Loss: 0.2346 | Val Loss: 0.3333 | Val Dice: 0.8440
+Epoch 7/50 | Train Loss: 0.2038 | Val Loss: 0.4319 | Val Dice: 0.7516
+Epoch 8/50 | Train Loss: 0.1964 | Val Loss: 0.4209 | Val Dice: 0.7170
+Epoch 9/50 | Train Loss: 0.1770 | Val Loss: 0.3501 | Val Dice: 0.8300
+Epoch 10/50 | Train Loss: 0.1750 | Val Loss: 0.3521 | Val Dice: 0.8223
+Epoch 11/50 | Train Loss: 0.1644 | Val Loss: 0.3036 | Val Dice: 0.8554
+Epoch 12/50 | Train Loss: 0.1397 | Val Loss: 0.3228 | Val Dice: 0.8466
+Epoch 13/50 | Train Loss: 0.1482 | Val Loss: 0.2705 | Val Dice: 0.8662
+Epoch 14/50 | Train Loss: 0.1420 | Val Loss: 0.3359 | Val Dice: 0.8281
+Epoch 15/50 | Train Loss: 0.1338 | Val Loss: 0.3106 | Val Dice: 0.8522
+Epoch 16/50 | Train Loss: 0.1263 | Val Loss: 0.3156 | Val Dice: 0.8183
+Epoch 17/50 | Train Loss: 0.1124 | Val Loss: 0.3044 | Val Dice: 0.8418
+Epoch 18/50 | Train Loss: 0.1048 | Val Loss: 0.3338 | Val Dice: 0.8289
+Epoch 19/50 | Train Loss: 0.1080 | Val Loss: 0.3478 | Val Dice: 0.7612
+Epoch 20/50 | Train Loss: 0.1033 | Val Loss: 0.2518 | Val Dice: 0.8752
+Epoch 21/50 | Train Loss: 0.1019 | Val Loss: 0.2362 | Val Dice: 0.8812
+Epoch 22/50 | Train Loss: 0.0901 | Val Loss: 0.2534 | Val Dice: 0.8736
+Epoch 23/50 | Train Loss: 0.0865 | Val Loss: 0.2788 | Val Dice: 0.8581
+Epoch 24/50 | Train Loss: 0.0870 | Val Loss: 0.2857 | Val Dice: 0.8455
+Epoch 25/50 | Train Loss: 0.0839 | Val Loss: 0.3090 | Val Dice: 0.8336
+Epoch 26/50 | Train Loss: 0.0777 | Val Loss: 0.2546 | Val Dice: 0.8593
+Epoch 27/50 | Train Loss: 0.0717 | Val Loss: 0.2765 | Val Dice: 0.8551
+Epoch 28/50 | Train Loss: 0.0641 | Val Loss: 0.2814 | Val Dice: 0.8394
+Epoch 29/50 | Train Loss: 0.0567 | Val Loss: 0.3032 | Val Dice: 0.8510
+Epoch 30/50 | Train Loss: 0.0563 | Val Loss: 0.2792 | Val Dice: 0.8484
+Epoch 31/50 | Train Loss: 0.0541 | Val Loss: 0.3210 | Val Dice: 0.8026
+Epoch 32/50 | Train Loss: 0.0473 | Val Loss: 0.2716 | Val Dice: 0.8596
+Epoch 33/50 | Train Loss: 0.0514 | Val Loss: 0.3312 | Val Dice: 0.7852
+Epoch 34/50 | Train Loss: 0.0484 | Val Loss: 0.2715 | Val Dice: 0.8637
+Epoch 35/50 | Train Loss: 0.0451 | Val Loss: 0.2654 | Val Dice: 0.8499
+Epoch 36/50 | Train Loss: 0.0513 | Val Loss: 0.2703 | Val Dice: 0.8555
+Epoch 37/50 | Train Loss: 0.0534 | Val Loss: 0.2497 | Val Dice: 0.8508
+Epoch 38/50 | Train Loss: 0.0459 | Val Loss: 0.2705 | Val Dice: 0.8467
+Epoch 39/50 | Train Loss: 0.0342 | Val Loss: 0.2867 | Val Dice: 0.8376
+Epoch 40/50 | Train Loss: 0.0370 | Val Loss: 0.3258 | Val Dice: 0.7872
+Epoch 41/50 | Train Loss: 0.0301 | Val Loss: 0.2486 | Val Dice: 0.8589
+Epoch 42/50 | Train Loss: 0.0302 | Val Loss: 0.2926 | Val Dice: 0.8388
+Epoch 43/50 | Train Loss: 0.0342 | Val Loss: 0.3093 | Val Dice: 0.8473
+Epoch 44/50 | Train Loss: 0.0349 | Val Loss: 0.3039 | Val Dice: 0.8166
+Epoch 45/50 | Train Loss: 0.0375 | Val Loss: 0.2608 | Val Dice: 0.8579
+Epoch 46/50 | Train Loss: 0.0326 | Val Loss: 0.2618 | Val Dice: 0.8582
+Epoch 47/50 | Train Loss: 0.0231 | Val Loss: 0.2751 | Val Dice: 0.8406
+Epoch 48/50 | Train Loss: 0.0185 | Val Loss: 0.3186 | Val Dice: 0.8353
+Epoch 49/50 | Train Loss: 0.0192 | Val Loss: 0.2833 | Val Dice: 0.8403
+Epoch 50/50 | Train Loss: 0.0169 | Val Loss: 0.2744 | Val Dice: 0.8546
+
+Best validation Dice: 0.8812
+Checkpoint: checkpoints/PH2_unet_improved_clicks_center_40_best.pth
+Split      Dice      IoU      Acc     Sens     Spec
+train    0.8953   0.8151   0.9344   0.8918   0.9749
+val      0.8812   0.7946   0.9367   0.9129   0.9678
+test     0.8910   0.8142   0.9323   0.8856   0.9759
+===== Strategy: center | Clicks: 80 =====
+Strategy: center | Clicks: 80 positive, 80 negative
+Device: cuda
+Epoch 1/50 | Train Loss: 0.4692 | Val Loss: 0.5695 | Val Dice: 0.4183
+Epoch 2/50 | Train Loss: 0.3471 | Val Loss: 0.4377 | Val Dice: 0.7036
+Epoch 3/50 | Train Loss: 0.3114 | Val Loss: 0.4345 | Val Dice: 0.7916
+Epoch 4/50 | Train Loss: 0.2755 | Val Loss: 0.4184 | Val Dice: 0.7642
+Epoch 5/50 | Train Loss: 0.2532 | Val Loss: 0.3629 | Val Dice: 0.8171
+Epoch 6/50 | Train Loss: 0.2385 | Val Loss: 0.3276 | Val Dice: 0.8564
+Epoch 7/50 | Train Loss: 0.2112 | Val Loss: 0.3643 | Val Dice: 0.8192
+Epoch 8/50 | Train Loss: 0.2049 | Val Loss: 0.3757 | Val Dice: 0.7608
+Epoch 9/50 | Train Loss: 0.1873 | Val Loss: 0.3292 | Val Dice: 0.8452
+Epoch 10/50 | Train Loss: 0.1866 | Val Loss: 0.3495 | Val Dice: 0.7964
+Epoch 11/50 | Train Loss: 0.1761 | Val Loss: 0.2786 | Val Dice: 0.8774
+Epoch 12/50 | Train Loss: 0.1548 | Val Loss: 0.2949 | Val Dice: 0.8639
+Epoch 13/50 | Train Loss: 0.1616 | Val Loss: 0.2954 | Val Dice: 0.8446
+Epoch 14/50 | Train Loss: 0.1559 | Val Loss: 0.3104 | Val Dice: 0.8493
+Epoch 15/50 | Train Loss: 0.1434 | Val Loss: 0.2942 | Val Dice: 0.8630
+Epoch 16/50 | Train Loss: 0.1392 | Val Loss: 0.3019 | Val Dice: 0.8508
+Epoch 17/50 | Train Loss: 0.1295 | Val Loss: 0.3204 | Val Dice: 0.8209
+Epoch 18/50 | Train Loss: 0.1186 | Val Loss: 0.3113 | Val Dice: 0.8504
+Epoch 19/50 | Train Loss: 0.1241 | Val Loss: 0.3567 | Val Dice: 0.7787
+Epoch 20/50 | Train Loss: 0.1173 | Val Loss: 0.2397 | Val Dice: 0.8760
+Epoch 21/50 | Train Loss: 0.1187 | Val Loss: 0.2383 | Val Dice: 0.8847
+Epoch 22/50 | Train Loss: 0.1035 | Val Loss: 0.2237 | Val Dice: 0.8900
+Epoch 23/50 | Train Loss: 0.0920 | Val Loss: 0.2621 | Val Dice: 0.8672
+Epoch 24/50 | Train Loss: 0.0937 | Val Loss: 0.3216 | Val Dice: 0.8400
+Epoch 25/50 | Train Loss: 0.0947 | Val Loss: 0.2520 | Val Dice: 0.8606
+Epoch 26/50 | Train Loss: 0.0902 | Val Loss: 0.2183 | Val Dice: 0.8835
+Epoch 27/50 | Train Loss: 0.0821 | Val Loss: 0.2429 | Val Dice: 0.8626
+Epoch 28/50 | Train Loss: 0.0773 | Val Loss: 0.2596 | Val Dice: 0.8599
+Epoch 29/50 | Train Loss: 0.0760 | Val Loss: 0.2371 | Val Dice: 0.8664
+Epoch 30/50 | Train Loss: 0.0718 | Val Loss: 0.2527 | Val Dice: 0.8636
+Epoch 31/50 | Train Loss: 0.0732 | Val Loss: 0.2511 | Val Dice: 0.8489
+Epoch 32/50 | Train Loss: 0.0655 | Val Loss: 0.2536 | Val Dice: 0.8410
+Epoch 33/50 | Train Loss: 0.0722 | Val Loss: 0.2420 | Val Dice: 0.8581
+Epoch 34/50 | Train Loss: 0.0593 | Val Loss: 0.2598 | Val Dice: 0.8611
+Epoch 35/50 | Train Loss: 0.0566 | Val Loss: 0.2245 | Val Dice: 0.8721
+Epoch 36/50 | Train Loss: 0.0658 | Val Loss: 0.2167 | Val Dice: 0.8864
+Epoch 37/50 | Train Loss: 0.0731 | Val Loss: 0.2271 | Val Dice: 0.8638
+Epoch 38/50 | Train Loss: 0.0651 | Val Loss: 0.2488 | Val Dice: 0.8690
+Epoch 39/50 | Train Loss: 0.0501 | Val Loss: 0.2560 | Val Dice: 0.8561
+Epoch 40/50 | Train Loss: 0.0518 | Val Loss: 0.2562 | Val Dice: 0.8541
+Epoch 41/50 | Train Loss: 0.0452 | Val Loss: 0.2301 | Val Dice: 0.8684
+Epoch 42/50 | Train Loss: 0.0426 | Val Loss: 0.2310 | Val Dice: 0.8716
+Epoch 43/50 | Train Loss: 0.0439 | Val Loss: 0.2732 | Val Dice: 0.8378
+Epoch 44/50 | Train Loss: 0.0473 | Val Loss: 0.2295 | Val Dice: 0.8682
+Epoch 45/50 | Train Loss: 0.0445 | Val Loss: 0.2252 | Val Dice: 0.8792
+Epoch 46/50 | Train Loss: 0.0432 | Val Loss: 0.2505 | Val Dice: 0.8575
+Epoch 47/50 | Train Loss: 0.0404 | Val Loss: 0.2160 | Val Dice: 0.8780
+Epoch 48/50 | Train Loss: 0.0342 | Val Loss: 0.2366 | Val Dice: 0.8759
+Epoch 49/50 | Train Loss: 0.0445 | Val Loss: 0.2228 | Val Dice: 0.8813
+Epoch 50/50 | Train Loss: 0.0340 | Val Loss: 0.2283 | Val Dice: 0.8765
+
+Best validation Dice: 0.8900
+Checkpoint: checkpoints/PH2_unet_improved_clicks_center_80_best.pth
+Split      Dice      IoU      Acc     Sens     Spec
+train    0.9114   0.8407   0.9430   0.9174   0.9751
+val      0.8900   0.8114   0.9411   0.9244   0.9702
+test     0.9151   0.8487   0.9453   0.9068   0.9761
+===== Strategy: random | Clicks: 5 =====
+Strategy: random | Clicks: 5 positive, 5 negative
+Device: cuda
+Epoch 1/50 | Train Loss: 0.5479 | Val Loss: 0.6040 | Val Dice: 0.4833
+Epoch 2/50 | Train Loss: 0.4262 | Val Loss: 0.4823 | Val Dice: 0.7305
+Epoch 3/50 | Train Loss: 0.3947 | Val Loss: 0.4684 | Val Dice: 0.7651
+Epoch 4/50 | Train Loss: 0.3575 | Val Loss: 0.4803 | Val Dice: 0.7841
+Epoch 5/50 | Train Loss: 0.3243 | Val Loss: 0.4508 | Val Dice: 0.7694
+Epoch 6/50 | Train Loss: 0.3054 | Val Loss: 0.4109 | Val Dice: 0.8087
+Epoch 7/50 | Train Loss: 0.2784 | Val Loss: 0.4394 | Val Dice: 0.7844
+Epoch 8/50 | Train Loss: 0.2446 | Val Loss: 0.4122 | Val Dice: 0.7795
+Epoch 9/50 | Train Loss: 0.2056 | Val Loss: 0.3764 | Val Dice: 0.7984
+Epoch 10/50 | Train Loss: 0.1889 | Val Loss: 0.4394 | Val Dice: 0.7734
+Epoch 11/50 | Train Loss: 0.1505 | Val Loss: 0.3870 | Val Dice: 0.7907
+Epoch 12/50 | Train Loss: 0.1237 | Val Loss: 0.4284 | Val Dice: 0.7754
+Epoch 13/50 | Train Loss: 0.1051 | Val Loss: 0.3849 | Val Dice: 0.7818
+Epoch 14/50 | Train Loss: 0.0913 | Val Loss: 0.4012 | Val Dice: 0.7610
+Epoch 15/50 | Train Loss: 0.0744 | Val Loss: 0.4046 | Val Dice: 0.7525
+Epoch 16/50 | Train Loss: 0.0587 | Val Loss: 0.4169 | Val Dice: 0.7326
+Epoch 17/50 | Train Loss: 0.0419 | Val Loss: 0.4363 | Val Dice: 0.7164
+Epoch 18/50 | Train Loss: 0.0327 | Val Loss: 0.4253 | Val Dice: 0.7326
+Epoch 19/50 | Train Loss: 0.0250 | Val Loss: 0.4501 | Val Dice: 0.6861
+Epoch 20/50 | Train Loss: 0.0251 | Val Loss: 0.4285 | Val Dice: 0.7251
+Epoch 21/50 | Train Loss: 0.0281 | Val Loss: 0.4270 | Val Dice: 0.7203
+Epoch 22/50 | Train Loss: 0.0225 | Val Loss: 0.4555 | Val Dice: 0.6842
+Epoch 23/50 | Train Loss: 0.0153 | Val Loss: 0.4162 | Val Dice: 0.7130
+Epoch 24/50 | Train Loss: 0.0240 | Val Loss: 0.5209 | Val Dice: 0.6762
+Epoch 25/50 | Train Loss: 0.0242 | Val Loss: 0.4684 | Val Dice: 0.7106
+Epoch 26/50 | Train Loss: 0.0233 | Val Loss: 0.4489 | Val Dice: 0.6984
+Epoch 27/50 | Train Loss: 0.0151 | Val Loss: 0.4801 | Val Dice: 0.6770
+Epoch 28/50 | Train Loss: 0.0093 | Val Loss: 0.4517 | Val Dice: 0.6881
+Epoch 29/50 | Train Loss: 0.0101 | Val Loss: 0.4790 | Val Dice: 0.6805
+Epoch 30/50 | Train Loss: 0.0081 | Val Loss: 0.4844 | Val Dice: 0.6607
+Epoch 31/50 | Train Loss: 0.0100 | Val Loss: 0.4943 | Val Dice: 0.6832
+Epoch 32/50 | Train Loss: 0.0048 | Val Loss: 0.4863 | Val Dice: 0.6727
+Epoch 33/50 | Train Loss: 0.0036 | Val Loss: 0.4777 | Val Dice: 0.6555
+Epoch 34/50 | Train Loss: 0.0047 | Val Loss: 0.5006 | Val Dice: 0.6857
+Epoch 35/50 | Train Loss: 0.0030 | Val Loss: 0.4875 | Val Dice: 0.6619
+Epoch 36/50 | Train Loss: 0.0058 | Val Loss: 0.4691 | Val Dice: 0.6718
+Epoch 37/50 | Train Loss: 0.0055 | Val Loss: 0.4867 | Val Dice: 0.6558
+Epoch 38/50 | Train Loss: 0.0028 | Val Loss: 0.4831 | Val Dice: 0.6560
+Epoch 39/50 | Train Loss: 0.0042 | Val Loss: 0.4692 | Val Dice: 0.6687
+Epoch 40/50 | Train Loss: 0.0030 | Val Loss: 0.4701 | Val Dice: 0.6738
+Epoch 41/50 | Train Loss: 0.0021 | Val Loss: 0.5056 | Val Dice: 0.6323
+Epoch 42/50 | Train Loss: 0.0024 | Val Loss: 0.5307 | Val Dice: 0.6455
+Epoch 43/50 | Train Loss: 0.0034 | Val Loss: 0.4822 | Val Dice: 0.6655
+Epoch 44/50 | Train Loss: 0.0027 | Val Loss: 0.4809 | Val Dice: 0.6548
+Epoch 45/50 | Train Loss: 0.0025 | Val Loss: 0.5003 | Val Dice: 0.6482
+Epoch 46/50 | Train Loss: 0.0090 | Val Loss: 0.5889 | Val Dice: 0.6439
+Epoch 47/50 | Train Loss: 0.0096 | Val Loss: 0.5252 | Val Dice: 0.6460
+Epoch 48/50 | Train Loss: 0.0061 | Val Loss: 0.5066 | Val Dice: 0.6499
+Epoch 49/50 | Train Loss: 0.0032 | Val Loss: 0.5819 | Val Dice: 0.5879
+Epoch 50/50 | Train Loss: 0.0023 | Val Loss: 0.5325 | Val Dice: 0.6350
+
+Best validation Dice: 0.8087
+Checkpoint: checkpoints/PH2_unet_improved_clicks_random_5_best.pth
+Split      Dice      IoU      Acc     Sens     Spec
+train    0.8251   0.7317   0.8738   0.9037   0.8763
+val      0.8087   0.7150   0.8577   0.9121   0.8723
+test     0.8374   0.7457   0.8776   0.9088   0.8713
+===== Strategy: random | Clicks: 10 =====
+Strategy: random | Clicks: 10 positive, 10 negative
+Device: cuda
+Epoch 1/50 | Train Loss: 0.5313 | Val Loss: 0.5906 | Val Dice: 0.4977
+Epoch 2/50 | Train Loss: 0.4168 | Val Loss: 0.4694 | Val Dice: 0.7480
+Epoch 3/50 | Train Loss: 0.3832 | Val Loss: 0.4378 | Val Dice: 0.7912
+Epoch 4/50 | Train Loss: 0.3528 | Val Loss: 0.4312 | Val Dice: 0.8006
+Epoch 5/50 | Train Loss: 0.3224 | Val Loss: 0.3911 | Val Dice: 0.8032
+Epoch 6/50 | Train Loss: 0.3003 | Val Loss: 0.3536 | Val Dice: 0.8355
+Epoch 7/50 | Train Loss: 0.2729 | Val Loss: 0.4163 | Val Dice: 0.7996
+Epoch 8/50 | Train Loss: 0.2585 | Val Loss: 0.3516 | Val Dice: 0.8342
+Epoch 9/50 | Train Loss: 0.2267 | Val Loss: 0.3994 | Val Dice: 0.7960
+Epoch 10/50 | Train Loss: 0.2106 | Val Loss: 0.3728 | Val Dice: 0.8024
+Epoch 11/50 | Train Loss: 0.1817 | Val Loss: 0.3331 | Val Dice: 0.8218
+Epoch 12/50 | Train Loss: 0.1662 | Val Loss: 0.3623 | Val Dice: 0.8217
+Epoch 13/50 | Train Loss: 0.1367 | Val Loss: 0.3757 | Val Dice: 0.7747
+Epoch 14/50 | Train Loss: 0.1146 | Val Loss: 0.3589 | Val Dice: 0.7951
+Epoch 15/50 | Train Loss: 0.0952 | Val Loss: 0.3640 | Val Dice: 0.7952
+Epoch 16/50 | Train Loss: 0.0821 | Val Loss: 0.3658 | Val Dice: 0.7786
+Epoch 17/50 | Train Loss: 0.0678 | Val Loss: 0.3640 | Val Dice: 0.7891
+Epoch 18/50 | Train Loss: 0.0563 | Val Loss: 0.3757 | Val Dice: 0.7645
+Epoch 19/50 | Train Loss: 0.0427 | Val Loss: 0.4024 | Val Dice: 0.7384
+Epoch 20/50 | Train Loss: 0.0399 | Val Loss: 0.3459 | Val Dice: 0.7890
+Epoch 21/50 | Train Loss: 0.0367 | Val Loss: 0.3800 | Val Dice: 0.7696
+Epoch 22/50 | Train Loss: 0.0286 | Val Loss: 0.3853 | Val Dice: 0.7660
+Epoch 23/50 | Train Loss: 0.0231 | Val Loss: 0.3921 | Val Dice: 0.7534
+Epoch 24/50 | Train Loss: 0.0320 | Val Loss: 0.4339 | Val Dice: 0.7346
+Epoch 25/50 | Train Loss: 0.0273 | Val Loss: 0.3825 | Val Dice: 0.7706
+Epoch 26/50 | Train Loss: 0.0283 | Val Loss: 0.3943 | Val Dice: 0.7628
+Epoch 27/50 | Train Loss: 0.0194 | Val Loss: 0.3912 | Val Dice: 0.7619
+Epoch 28/50 | Train Loss: 0.0120 | Val Loss: 0.4167 | Val Dice: 0.7487
+Epoch 29/50 | Train Loss: 0.0155 | Val Loss: 0.4189 | Val Dice: 0.7643
+Epoch 30/50 | Train Loss: 0.0130 | Val Loss: 0.4275 | Val Dice: 0.7446
+Epoch 31/50 | Train Loss: 0.0105 | Val Loss: 0.4454 | Val Dice: 0.7446
+Epoch 32/50 | Train Loss: 0.0077 | Val Loss: 0.4305 | Val Dice: 0.7381
+Epoch 33/50 | Train Loss: 0.0051 | Val Loss: 0.4152 | Val Dice: 0.7321
+Epoch 34/50 | Train Loss: 0.0055 | Val Loss: 0.4382 | Val Dice: 0.7474
+Epoch 35/50 | Train Loss: 0.0043 | Val Loss: 0.4311 | Val Dice: 0.7345
+Epoch 36/50 | Train Loss: 0.0083 | Val Loss: 0.4366 | Val Dice: 0.7222
+Epoch 37/50 | Train Loss: 0.0092 | Val Loss: 0.4510 | Val Dice: 0.7205
+Epoch 38/50 | Train Loss: 0.0069 | Val Loss: 0.3999 | Val Dice: 0.7666
+Epoch 39/50 | Train Loss: 0.0047 | Val Loss: 0.4373 | Val Dice: 0.7327
+Epoch 40/50 | Train Loss: 0.0052 | Val Loss: 0.4330 | Val Dice: 0.7381
+Epoch 41/50 | Train Loss: 0.0033 | Val Loss: 0.4427 | Val Dice: 0.7248
+Epoch 42/50 | Train Loss: 0.0030 | Val Loss: 0.4567 | Val Dice: 0.7016
+Epoch 43/50 | Train Loss: 0.0045 | Val Loss: 0.4635 | Val Dice: 0.7000
+Epoch 44/50 | Train Loss: 0.0038 | Val Loss: 0.4670 | Val Dice: 0.7108
+Epoch 45/50 | Train Loss: 0.0052 | Val Loss: 0.5235 | Val Dice: 0.6706
+Epoch 46/50 | Train Loss: 0.0215 | Val Loss: 0.5029 | Val Dice: 0.7206
+Epoch 47/50 | Train Loss: 0.0280 | Val Loss: 0.4254 | Val Dice: 0.7583
+Epoch 48/50 | Train Loss: 0.0133 | Val Loss: 0.4267 | Val Dice: 0.7576
+Epoch 49/50 | Train Loss: 0.0080 | Val Loss: 0.4858 | Val Dice: 0.7132
+Epoch 50/50 | Train Loss: 0.0050 | Val Loss: 0.4188 | Val Dice: 0.7616
+
+Best validation Dice: 0.8355
+Checkpoint: checkpoints/PH2_unet_improved_clicks_random_10_best.pth
+Split      Dice      IoU      Acc     Sens     Spec
+train    0.8454   0.7573   0.8937   0.8963   0.9199
+val      0.8355   0.7524   0.8808   0.9087   0.9070
+test     0.8668   0.7837   0.9037   0.9150   0.9102
+===== Strategy: random | Clicks: 20 =====
+Strategy: random | Clicks: 20 positive, 20 negative
+Device: cuda
+Epoch 1/50 | Train Loss: 0.5176 | Val Loss: 0.5897 | Val Dice: 0.4667
+Epoch 2/50 | Train Loss: 0.4080 | Val Loss: 0.4553 | Val Dice: 0.7343
+Epoch 3/50 | Train Loss: 0.3757 | Val Loss: 0.4164 | Val Dice: 0.8171
+Epoch 4/50 | Train Loss: 0.3385 | Val Loss: 0.3952 | Val Dice: 0.8240
+Epoch 5/50 | Train Loss: 0.3118 | Val Loss: 0.3671 | Val Dice: 0.8392
+Epoch 6/50 | Train Loss: 0.2944 | Val Loss: 0.3504 | Val Dice: 0.8352
+Epoch 7/50 | Train Loss: 0.2717 | Val Loss: 0.3612 | Val Dice: 0.8361
+Epoch 8/50 | Train Loss: 0.2657 | Val Loss: 0.3701 | Val Dice: 0.8142
+Epoch 9/50 | Train Loss: 0.2390 | Val Loss: 0.3261 | Val Dice: 0.8440
+Epoch 10/50 | Train Loss: 0.2311 | Val Loss: 0.3697 | Val Dice: 0.7904
+Epoch 11/50 | Train Loss: 0.2139 | Val Loss: 0.2955 | Val Dice: 0.8560
+Epoch 12/50 | Train Loss: 0.1928 | Val Loss: 0.3160 | Val Dice: 0.8592
+Epoch 13/50 | Train Loss: 0.1869 | Val Loss: 0.3164 | Val Dice: 0.8277
+Epoch 14/50 | Train Loss: 0.1684 | Val Loss: 0.3394 | Val Dice: 0.8253
+Epoch 15/50 | Train Loss: 0.1529 | Val Loss: 0.2844 | Val Dice: 0.8574
+Epoch 16/50 | Train Loss: 0.1365 | Val Loss: 0.3139 | Val Dice: 0.8222
+Epoch 17/50 | Train Loss: 0.1127 | Val Loss: 0.3039 | Val Dice: 0.8309
+Epoch 18/50 | Train Loss: 0.0973 | Val Loss: 0.3327 | Val Dice: 0.7955
+Epoch 19/50 | Train Loss: 0.0853 | Val Loss: 0.3429 | Val Dice: 0.8011
+Epoch 20/50 | Train Loss: 0.0769 | Val Loss: 0.3324 | Val Dice: 0.7972
+Epoch 21/50 | Train Loss: 0.0715 | Val Loss: 0.2841 | Val Dice: 0.8276
+Epoch 22/50 | Train Loss: 0.0554 | Val Loss: 0.3235 | Val Dice: 0.8016
+Epoch 23/50 | Train Loss: 0.0452 | Val Loss: 0.3168 | Val Dice: 0.8146
+Epoch 24/50 | Train Loss: 0.0462 | Val Loss: 0.3185 | Val Dice: 0.8060
+Epoch 25/50 | Train Loss: 0.0404 | Val Loss: 0.3452 | Val Dice: 0.7996
+Epoch 26/50 | Train Loss: 0.0373 | Val Loss: 0.3304 | Val Dice: 0.8012
+Epoch 27/50 | Train Loss: 0.0288 | Val Loss: 0.3310 | Val Dice: 0.7992
+Epoch 28/50 | Train Loss: 0.0223 | Val Loss: 0.3592 | Val Dice: 0.7800
+Epoch 29/50 | Train Loss: 0.0213 | Val Loss: 0.3535 | Val Dice: 0.7967
+Epoch 30/50 | Train Loss: 0.0167 | Val Loss: 0.3637 | Val Dice: 0.7879
+Epoch 31/50 | Train Loss: 0.0161 | Val Loss: 0.3546 | Val Dice: 0.7884
+Epoch 32/50 | Train Loss: 0.0124 | Val Loss: 0.3717 | Val Dice: 0.7856
+Epoch 33/50 | Train Loss: 0.0103 | Val Loss: 0.3643 | Val Dice: 0.7777
+Epoch 34/50 | Train Loss: 0.0112 | Val Loss: 0.3741 | Val Dice: 0.7868
+Epoch 35/50 | Train Loss: 0.0103 | Val Loss: 0.3781 | Val Dice: 0.7784
+Epoch 36/50 | Train Loss: 0.0132 | Val Loss: 0.4026 | Val Dice: 0.7608
+Epoch 37/50 | Train Loss: 0.0139 | Val Loss: 0.3948 | Val Dice: 0.7673
+Epoch 38/50 | Train Loss: 0.0117 | Val Loss: 0.3502 | Val Dice: 0.8044
+Epoch 39/50 | Train Loss: 0.0081 | Val Loss: 0.3870 | Val Dice: 0.7789
+Epoch 40/50 | Train Loss: 0.0087 | Val Loss: 0.4019 | Val Dice: 0.7646
+Epoch 41/50 | Train Loss: 0.0104 | Val Loss: 0.3999 | Val Dice: 0.7743
+Epoch 42/50 | Train Loss: 0.0091 | Val Loss: 0.3666 | Val Dice: 0.7910
+Epoch 43/50 | Train Loss: 0.0082 | Val Loss: 0.3499 | Val Dice: 0.8001
+Epoch 44/50 | Train Loss: 0.0072 | Val Loss: 0.3585 | Val Dice: 0.7999
+Epoch 45/50 | Train Loss: 0.0067 | Val Loss: 0.4631 | Val Dice: 0.7314
+Epoch 46/50 | Train Loss: 0.0050 | Val Loss: 0.4234 | Val Dice: 0.7478
+Epoch 47/50 | Train Loss: 0.0048 | Val Loss: 0.4013 | Val Dice: 0.7637
+Epoch 48/50 | Train Loss: 0.0033 | Val Loss: 0.4011 | Val Dice: 0.7703
+Epoch 49/50 | Train Loss: 0.0038 | Val Loss: 0.4458 | Val Dice: 0.7457
+Epoch 50/50 | Train Loss: 0.0031 | Val Loss: 0.4226 | Val Dice: 0.7566
+
+Best validation Dice: 0.8592
+Checkpoint: checkpoints/PH2_unet_improved_clicks_random_20_best.pth
+Split      Dice      IoU      Acc     Sens     Spec
+train    0.8738   0.7937   0.9176   0.9361   0.9302
+val      0.8592   0.7744   0.9134   0.9391   0.9317
+test     0.8856   0.8065   0.9257   0.9405   0.9276
+===== Strategy: random | Clicks: 40 =====
+Strategy: random | Clicks: 40 positive, 40 negative
+Device: cuda
+Epoch 1/50 | Train Loss: 0.5132 | Val Loss: 0.5821 | Val Dice: 0.4841
+Epoch 2/50 | Train Loss: 0.4066 | Val Loss: 0.4417 | Val Dice: 0.7457
+Epoch 3/50 | Train Loss: 0.3696 | Val Loss: 0.4515 | Val Dice: 0.8046
+Epoch 4/50 | Train Loss: 0.3326 | Val Loss: 0.4010 | Val Dice: 0.8197
+Epoch 5/50 | Train Loss: 0.3111 | Val Loss: 0.3544 | Val Dice: 0.8455
+Epoch 6/50 | Train Loss: 0.2981 | Val Loss: 0.3314 | Val Dice: 0.8562
+Epoch 7/50 | Train Loss: 0.2765 | Val Loss: 0.3515 | Val Dice: 0.8371
+Epoch 8/50 | Train Loss: 0.2704 | Val Loss: 0.3527 | Val Dice: 0.8485
+Epoch 9/50 | Train Loss: 0.2483 | Val Loss: 0.3175 | Val Dice: 0.8594
+Epoch 10/50 | Train Loss: 0.2457 | Val Loss: 0.3594 | Val Dice: 0.8231
+Epoch 11/50 | Train Loss: 0.2360 | Val Loss: 0.2950 | Val Dice: 0.8687
+Epoch 12/50 | Train Loss: 0.2105 | Val Loss: 0.2982 | Val Dice: 0.8697
+Epoch 13/50 | Train Loss: 0.2172 | Val Loss: 0.2762 | Val Dice: 0.8709
+Epoch 14/50 | Train Loss: 0.2088 | Val Loss: 0.2710 | Val Dice: 0.8733
+Epoch 15/50 | Train Loss: 0.1901 | Val Loss: 0.2772 | Val Dice: 0.8722
+Epoch 16/50 | Train Loss: 0.1795 | Val Loss: 0.2683 | Val Dice: 0.8726
+Epoch 17/50 | Train Loss: 0.1653 | Val Loss: 0.2777 | Val Dice: 0.8631
+Epoch 18/50 | Train Loss: 0.1501 | Val Loss: 0.3178 | Val Dice: 0.8276
+Epoch 19/50 | Train Loss: 0.1382 | Val Loss: 0.3018 | Val Dice: 0.8414
+Epoch 20/50 | Train Loss: 0.1294 | Val Loss: 0.2330 | Val Dice: 0.8741
+Epoch 21/50 | Train Loss: 0.1252 | Val Loss: 0.2310 | Val Dice: 0.8738
+Epoch 22/50 | Train Loss: 0.1050 | Val Loss: 0.2622 | Val Dice: 0.8550
+Epoch 23/50 | Train Loss: 0.0902 | Val Loss: 0.2497 | Val Dice: 0.8582
+Epoch 24/50 | Train Loss: 0.0827 | Val Loss: 0.3043 | Val Dice: 0.8267
+Epoch 25/50 | Train Loss: 0.0770 | Val Loss: 0.2869 | Val Dice: 0.8248
+Epoch 26/50 | Train Loss: 0.0651 | Val Loss: 0.2815 | Val Dice: 0.8349
+Epoch 27/50 | Train Loss: 0.0556 | Val Loss: 0.2840 | Val Dice: 0.8321
+Epoch 28/50 | Train Loss: 0.0489 | Val Loss: 0.2814 | Val Dice: 0.8289
+Epoch 29/50 | Train Loss: 0.0454 | Val Loss: 0.3148 | Val Dice: 0.8134
+Epoch 30/50 | Train Loss: 0.0406 | Val Loss: 0.3411 | Val Dice: 0.8070
+Epoch 31/50 | Train Loss: 0.0368 | Val Loss: 0.2986 | Val Dice: 0.8259
+Epoch 32/50 | Train Loss: 0.0302 | Val Loss: 0.3132 | Val Dice: 0.8152
+Epoch 33/50 | Train Loss: 0.0266 | Val Loss: 0.3065 | Val Dice: 0.8188
+Epoch 34/50 | Train Loss: 0.0249 | Val Loss: 0.3200 | Val Dice: 0.8177
+Epoch 35/50 | Train Loss: 0.0235 | Val Loss: 0.3324 | Val Dice: 0.8065
+Epoch 36/50 | Train Loss: 0.0267 | Val Loss: 0.3343 | Val Dice: 0.8029
+Epoch 37/50 | Train Loss: 0.0294 | Val Loss: 0.3245 | Val Dice: 0.8173
+Epoch 38/50 | Train Loss: 0.0233 | Val Loss: 0.3322 | Val Dice: 0.8100
+Epoch 39/50 | Train Loss: 0.0192 | Val Loss: 0.3206 | Val Dice: 0.8156
+Epoch 40/50 | Train Loss: 0.0199 | Val Loss: 0.3350 | Val Dice: 0.8002
+Epoch 41/50 | Train Loss: 0.0192 | Val Loss: 0.3114 | Val Dice: 0.8213
+Epoch 42/50 | Train Loss: 0.0154 | Val Loss: 0.3062 | Val Dice: 0.8256
+Epoch 43/50 | Train Loss: 0.0174 | Val Loss: 0.3038 | Val Dice: 0.8259
+Epoch 44/50 | Train Loss: 0.0148 | Val Loss: 0.3317 | Val Dice: 0.8090
+Epoch 45/50 | Train Loss: 0.0129 | Val Loss: 0.3552 | Val Dice: 0.8025
+Epoch 46/50 | Train Loss: 0.0131 | Val Loss: 0.3498 | Val Dice: 0.7998
+Epoch 47/50 | Train Loss: 0.0119 | Val Loss: 0.3421 | Val Dice: 0.8126
+Epoch 48/50 | Train Loss: 0.0093 | Val Loss: 0.3474 | Val Dice: 0.8112
+Epoch 49/50 | Train Loss: 0.0081 | Val Loss: 0.3695 | Val Dice: 0.7941
+Epoch 50/50 | Train Loss: 0.0071 | Val Loss: 0.3842 | Val Dice: 0.7901
+
+Best validation Dice: 0.8741
+Checkpoint: checkpoints/PH2_unet_improved_clicks_random_40_best.pth
+Split      Dice      IoU      Acc     Sens     Spec
+train    0.8955   0.8215   0.9344   0.9352   0.9530
+val      0.8741   0.7893   0.9349   0.9409   0.9511
+test     0.8911   0.8139   0.9376   0.9343   0.9479
+===== Strategy: random | Clicks: 80 =====
+Strategy: random | Clicks: 80 positive, 80 negative
+Device: cuda
+Epoch 1/50 | Train Loss: 0.5084 | Val Loss: 0.5767 | Val Dice: 0.4977
+Epoch 2/50 | Train Loss: 0.3995 | Val Loss: 0.4234 | Val Dice: 0.7758
+Epoch 3/50 | Train Loss: 0.3497 | Val Loss: 0.3978 | Val Dice: 0.8110
+Epoch 4/50 | Train Loss: 0.3181 | Val Loss: 0.4077 | Val Dice: 0.8069
+Epoch 5/50 | Train Loss: 0.3027 | Val Loss: 0.3509 | Val Dice: 0.8525
+Epoch 6/50 | Train Loss: 0.2908 | Val Loss: 0.3265 | Val Dice: 0.8575
+Epoch 7/50 | Train Loss: 0.2723 | Val Loss: 0.3286 | Val Dice: 0.8593
+Epoch 8/50 | Train Loss: 0.2663 | Val Loss: 0.3548 | Val Dice: 0.8463
+Epoch 9/50 | Train Loss: 0.2495 | Val Loss: 0.2878 | Val Dice: 0.8744
+Epoch 10/50 | Train Loss: 0.2433 | Val Loss: 0.3146 | Val Dice: 0.8530
+Epoch 11/50 | Train Loss: 0.2358 | Val Loss: 0.2869 | Val Dice: 0.8737
+Epoch 12/50 | Train Loss: 0.2187 | Val Loss: 0.2680 | Val Dice: 0.8849
+Epoch 13/50 | Train Loss: 0.2217 | Val Loss: 0.2692 | Val Dice: 0.8695
+Epoch 14/50 | Train Loss: 0.2194 | Val Loss: 0.2514 | Val Dice: 0.8916
+Epoch 15/50 | Train Loss: 0.2036 | Val Loss: 0.2888 | Val Dice: 0.8632
+Epoch 16/50 | Train Loss: 0.1937 | Val Loss: 0.2517 | Val Dice: 0.8802
+Epoch 17/50 | Train Loss: 0.1812 | Val Loss: 0.2318 | Val Dice: 0.8894
+Epoch 18/50 | Train Loss: 0.1740 | Val Loss: 0.2908 | Val Dice: 0.8535
+Epoch 19/50 | Train Loss: 0.1667 | Val Loss: 0.2135 | Val Dice: 0.8894
+Epoch 20/50 | Train Loss: 0.1614 | Val Loss: 0.1990 | Val Dice: 0.8991
+Epoch 21/50 | Train Loss: 0.1636 | Val Loss: 0.1965 | Val Dice: 0.9045
+Epoch 22/50 | Train Loss: 0.1470 | Val Loss: 0.2276 | Val Dice: 0.8792
+Epoch 23/50 | Train Loss: 0.1281 | Val Loss: 0.2073 | Val Dice: 0.8905
+Epoch 24/50 | Train Loss: 0.1216 | Val Loss: 0.2261 | Val Dice: 0.8744
+Epoch 25/50 | Train Loss: 0.1250 | Val Loss: 0.2156 | Val Dice: 0.8749
+Epoch 26/50 | Train Loss: 0.1153 | Val Loss: 0.2344 | Val Dice: 0.8596
+Epoch 27/50 | Train Loss: 0.1043 | Val Loss: 0.2427 | Val Dice: 0.8506
+Epoch 28/50 | Train Loss: 0.0932 | Val Loss: 0.2343 | Val Dice: 0.8623
+Epoch 29/50 | Train Loss: 0.0843 | Val Loss: 0.2345 | Val Dice: 0.8694
+Epoch 30/50 | Train Loss: 0.0841 | Val Loss: 0.2663 | Val Dice: 0.8426
+Epoch 31/50 | Train Loss: 0.0795 | Val Loss: 0.2247 | Val Dice: 0.8592
+Epoch 32/50 | Train Loss: 0.0650 | Val Loss: 0.2364 | Val Dice: 0.8532
+Epoch 33/50 | Train Loss: 0.0600 | Val Loss: 0.2696 | Val Dice: 0.8297
+Epoch 34/50 | Train Loss: 0.0550 | Val Loss: 0.2637 | Val Dice: 0.8449
+Epoch 35/50 | Train Loss: 0.0532 | Val Loss: 0.2639 | Val Dice: 0.8322
+Epoch 36/50 | Train Loss: 0.0562 | Val Loss: 0.2716 | Val Dice: 0.8313
+Epoch 37/50 | Train Loss: 0.0605 | Val Loss: 0.2451 | Val Dice: 0.8465
+Epoch 38/50 | Train Loss: 0.0570 | Val Loss: 0.2727 | Val Dice: 0.8299
+Epoch 39/50 | Train Loss: 0.0457 | Val Loss: 0.2714 | Val Dice: 0.8359
+Epoch 40/50 | Train Loss: 0.0445 | Val Loss: 0.2618 | Val Dice: 0.8275
+Epoch 41/50 | Train Loss: 0.0434 | Val Loss: 0.2444 | Val Dice: 0.8444
+Epoch 42/50 | Train Loss: 0.0377 | Val Loss: 0.2425 | Val Dice: 0.8476
+Epoch 43/50 | Train Loss: 0.0355 | Val Loss: 0.2384 | Val Dice: 0.8465
+Epoch 44/50 | Train Loss: 0.0317 | Val Loss: 0.2376 | Val Dice: 0.8425
+Epoch 45/50 | Train Loss: 0.0276 | Val Loss: 0.2722 | Val Dice: 0.8311
+Epoch 46/50 | Train Loss: 0.0274 | Val Loss: 0.2630 | Val Dice: 0.8301
+Epoch 47/50 | Train Loss: 0.0249 | Val Loss: 0.2462 | Val Dice: 0.8436
+Epoch 48/50 | Train Loss: 0.0203 | Val Loss: 0.2617 | Val Dice: 0.8346
+Epoch 49/50 | Train Loss: 0.0202 | Val Loss: 0.2572 | Val Dice: 0.8387
+Epoch 50/50 | Train Loss: 0.0185 | Val Loss: 0.2884 | Val Dice: 0.8159
+
+Best validation Dice: 0.9045
+Checkpoint: checkpoints/PH2_unet_improved_clicks_random_80_best.pth
+Split      Dice      IoU      Acc     Sens     Spec
+train    0.9177   0.8526   0.9504   0.9442   0.9651
+val      0.9045   0.8305   0.9545   0.9529   0.9612
+test     0.9142   0.8481   0.9491   0.9365   0.9637
+
+------------------------------------------------------------
+Sender: LSF System <lsfadmin@hpc.dtu.dk>
+Subject: Job 30059865: <ablation> in cluster <dcc> Done
+
+Job <ablation> was submitted from host <hpclogin1> by user <s261907> in cluster <dcc> at Sun Nov 15 12:04:59 2026
+Job was executed on host(s) <4*n-62-18-9>, in queue <gpua100>, as user <s261907> in cluster <dcc> at Sun Nov 15 12:51:02 2026
+</zhome/f8/b/231940> was used as the home directory.
+</dtu/blackhole/04/231940/IDLCV/P03> was used as the working directory.
+Started at Sun Nov 15 12:51:02 2026
+Terminated at Sun Nov 15 13:03:29 2026
+Results reported at Sun Nov 15 13:03:29 2026
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+#!/bin/bash
+#BSUB -J ablation
+#BSUB -q gpua100
+#BSUB -gpu "num=1:mode=exclusive_process"
+#BSUB -n 4
+#BSUB -R "span[hosts=1]"
+#BSUB -R "rusage[mem=4GB]"
+#BSUB -W 00:30
+#BSUB -o hpc/logs/ablation_%J.out
+#BSUB -e hpc/logs/ablation_%J.err
+
+cd /dtu/blackhole/04/231940/IDLCV/P03
+
+for strategy in center random; do
+    for clicks in 5 10 20 40 80; do
+        echo "===== Strategy: $strategy | Clicks: $clicks ====="
+
+        uv run train_weak_auto.py --strategy $strategy --clicks $clicks
+
+        uv run evaluate_weak_auto.py \
+            checkpoints/PH2_unet_improved_clicks_${strategy}_${clicks}_best.pth
+    done
+done
+------------------------------------------------------------
+
+Successfully completed.
+
+Resource usage summary:
+
+    CPU time :                                   761.00 sec.
+    Max Memory :                                 1302 MB
+    Average Memory :                             1140.75 MB
+    Total Requested Memory :                     16384.00 MB
+    Delta Memory :                               15082.00 MB
+    Max Swap :                                   -
+    Max Processes :                              5
+    Max Threads :                                11
+    Run time :                                   747 sec.
+    Turnaround time :                            3510 sec.
+
+The output (if any) is above this job summary.
+
+
+
+PS:
+
+Read file <hpc/logs/ablation_30059865.err> for stderr output of this job.
+
